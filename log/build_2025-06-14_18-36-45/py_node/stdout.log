@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/py_node/py_node.egg-info
+writing ../../build/py_node/py_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_node/py_node.egg-info/dependency_links.txt
+writing entry points to ../../build/py_node/py_node.egg-info/entry_points.txt
+writing requirements to ../../build/py_node/py_node.egg-info/requires.txt
+writing top-level names to ../../build/py_node/py_node.egg-info/top_level.txt
+writing manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/matrix/ros2_ws/build/py_node/build
+creating /home/matrix/ros2_ws/build/py_node/build/lib
+creating /home/matrix/ros2_ws/build/py_node/build/lib/py_node
+copying py_node/pub.py -> /home/matrix/ros2_ws/build/py_node/build/lib/py_node
+copying py_node/__init__.py -> /home/matrix/ros2_ws/build/py_node/build/lib/py_node
+copying py_node/sub.py -> /home/matrix/ros2_ws/build/py_node/build/lib/py_node
+running install
+running install_lib
+creating /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node
+copying /home/matrix/ros2_ws/build/py_node/build/lib/py_node/pub.py -> /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node
+copying /home/matrix/ros2_ws/build/py_node/build/lib/py_node/__init__.py -> /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node
+copying /home/matrix/ros2_ws/build/py_node/build/lib/py_node/sub.py -> /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node
+byte-compiling /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node/pub.py to pub.cpython-310.pyc
+byte-compiling /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node/sub.py to sub.cpython-310.pyc
+running install_data
+creating /home/matrix/ros2_ws/install/py_node/share/ament_index
+creating /home/matrix/ros2_ws/install/py_node/share/ament_index/resource_index
+creating /home/matrix/ros2_ws/install/py_node/share/ament_index/resource_index/packages
+copying resource/py_node -> /home/matrix/ros2_ws/install/py_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/matrix/ros2_ws/install/py_node/share/py_node
+running install_egg_info
+Copying ../../build/py_node/py_node.egg-info to /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/matrix/ros2_ws/install/py_node/lib/py_node
+Installing talker script to /home/matrix/ros2_ws/install/py_node/lib/py_node
+writing list of installed files to '/home/matrix/ros2_ws/build/py_node/install.log'

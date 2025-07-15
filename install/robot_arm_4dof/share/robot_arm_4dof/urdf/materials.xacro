@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Material definitions for the robotic arm -->
+  
+  <!-- Base material - Dark gray -->
+  <material name="base_material">
+    <color rgba="0.3 0.3 0.3 1.0"/>
+  </material>
+
+  <!-- Link material - Light gray -->
+  <material name="link_material">
+    <color rgba="0.7 0.7 0.7 1.0"/>
+  </material>
+
+  <!-- Joint material - Orange -->
+  <material name="joint_material">
+    <color rgba="1.0 0.5 0.0 1.0"/>
+  </material>
+
+  <!-- End effector material - Blue -->
+  <material name="end_effector_material">
+    <color rgba="0.0 0.3 0.8 1.0"/>
+  </material>
+
+  <!-- Gazebo materials for simulation -->
+  <gazebo reference="base_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
+  <gazebo reference="shoulder_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="upper_arm_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="forearm_link">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="wrist_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+</robot>

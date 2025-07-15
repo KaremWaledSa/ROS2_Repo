@@ -1,0 +1,22 @@
+[4.022s] Invoking command in '/home/matrix/ros2_ws/src/py_node': PYTHONPATH=/home/matrix/ros2_ws/build/py_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_node build --build-base /home/matrix/ros2_ws/build/py_node/build install --record /home/matrix/ros2_ws/build/py_node/install.log --single-version-externally-managed install_data
+[5.183s] running egg_info
+[5.184s] writing ../../build/py_node/py_node.egg-info/PKG-INFO
+[5.186s] writing dependency_links to ../../build/py_node/py_node.egg-info/dependency_links.txt
+[5.188s] writing entry points to ../../build/py_node/py_node.egg-info/entry_points.txt
+[5.189s] writing requirements to ../../build/py_node/py_node.egg-info/requires.txt
+[5.189s] writing top-level names to ../../build/py_node/py_node.egg-info/top_level.txt
+[5.194s] reading manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'
+[5.202s] writing manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'
+[5.202s] running build
+[5.203s] running build_py
+[5.206s] running install
+[5.207s] running install_lib
+[5.207s] running install_data
+[5.213s] running install_egg_info
+[5.216s] removing '/home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node-0.0.0-py3.10.egg-info' (and everything under it)
+[5.220s] Copying ../../build/py_node/py_node.egg-info to /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node-0.0.0-py3.10.egg-info
+[5.225s] running install_scripts
+[5.311s] Installing listener script to /home/matrix/ros2_ws/install/py_node/lib/py_node
+[5.311s] Installing talker script to /home/matrix/ros2_ws/install/py_node/lib/py_node
+[5.313s] writing list of installed files to '/home/matrix/ros2_ws/build/py_node/install.log'
+[5.380s] Invoked command in '/home/matrix/ros2_ws/src/py_node' returned '0': PYTHONPATH=/home/matrix/ros2_ws/build/py_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_node build --build-base /home/matrix/ros2_ws/build/py_node/build install --record /home/matrix/ros2_ws/build/py_node/install.log --single-version-externally-managed install_data

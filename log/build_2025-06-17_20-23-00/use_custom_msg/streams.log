@@ -1,0 +1,71 @@
+[0.095s] Invoking command in '/home/matrix/ros2_ws/build/use_custom_msg': AMENT_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/matrix/ros2_ws/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matrix/ros2_ws/build/use_custom_msg -- -j8 -l8
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target custom_listner[0m
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target custom_talker[0m
+[0.569s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o[0m
+[0.586s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o[0m
+[7.653s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.658s]                  from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:3[m[K:
+[7.658s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Age&) const[m[K’:
+[7.658s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:21:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[7.658s]    21 |       RCLCPP_INFO(this->get_logger(), "I heard: '%f', '%f','%f'", [01;31m[Kmessage[m[K.days, message.months, message.years);
+[7.661s]       |                                                                   [01;31m[K^~~~~~~[m[K
+[7.661s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:19:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.661s]    19 |     void topic_callback([01;35m[Kconst custom_msg::msg::Age & msg[m[K) const
+[7.662s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.665s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[7.665s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyears[m[K’; did you mean ‘[01m[Kyear[m[K’?
+[7.665s]    29 |       message.[01;31m[Kyears[m[K = 1999;
+[7.665s]       |               [01;31m[K^~~~~[m[K
+[7.667s]       |               [32m[Kyear[m[K
+[7.667s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:30:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmonths[m[K’; did you mean ‘[01m[Kmonth[m[K’?
+[7.668s]    30 |       message.[01;31m[Kmonths[m[K = 8;
+[7.668s]       |               [01;31m[K^~~~~~[m[K
+[7.668s]       |               [32m[Kmonth[m[K
+[7.668s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:31:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdays[m[K’; did you mean ‘[01m[Kday[m[K’?
+[7.669s]    31 |       message.[01;31m[Kdays[m[K = 25;
+[7.669s]       |               [01;31m[K^~~~[m[K
+[7.669s]       |               [32m[Kday[m[K
+[7.670s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[7.670s]    33 |       message.[01;31m[Kdata[m[K = "Hello, Mr-Matrix! " + std::to_string(count_++);
+[7.670s]       |               [01;31m[K^~~~[m[K
+[7.678s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_[m[K’ was not declared in this scope
+[7.679s]    33 |       message.data = "Hello, Mr-Matrix! " + std::to_string([01;31m[Kcount_[m[K++);
+[7.679s]       |                                                            [01;31m[K^~~~~~[m[K
+[7.679s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.683s]                  from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[7.683s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:34:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdays[m[K’; did you mean ‘[01m[Kday[m[K’?
+[7.683s]    34 |       RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f','%f'", message.[01;31m[Kdays[m[K, message.months, message.years);
+[7.684s]       |                                                                              [01;31m[K^~~~[m[K
+[7.684s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:34:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmonths[m[K’; did you mean ‘[01m[Kmonth[m[K’?
+[7.684s]    34 |       RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f','%f'", message.days, message.[01;31m[Kmonths[m[K, message.years);
+[7.684s]       |                                                                                            [01;31m[K^~~~~~[m[K
+[7.685s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:34:108:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyears[m[K’; did you mean ‘[01m[Kyear[m[K’?
+[7.686s]    34 |       RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f','%f'", message.days, message.months, message.[01;31m[Kyears[m[K);
+[7.686s]       |                                                                                                            [01;31m[K^~~~~[m[K
+[9.069s] gmake[2]: *** [CMakeFiles/custom_talker.dir/build.make:76: CMakeFiles/custom_talker.dir/src/pub.cpp.o] Error 1
+[9.070s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/custom_talker.dir/all] Error 2
+[9.070s] gmake[1]: *** Waiting for unfinished jobs....
+[11.569s] gmake[2]: *** [CMakeFiles/custom_listner.dir/build.make:76: CMakeFiles/custom_listner.dir/src/sub.cpp.o] Error 1
+[11.569s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/custom_listner.dir/all] Error 2
+[11.569s] gmake: *** [Makefile:146: all] Error 2
+[11.578s] Invoked command in '/home/matrix/ros2_ws/build/use_custom_msg' returned '2': AMENT_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/matrix/ros2_ws/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matrix/ros2_ws/build/use_custom_msg -- -j8 -l8

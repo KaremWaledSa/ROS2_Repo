@@ -1,0 +1,1398 @@
+[0.000000] (-) TimerEvent: {}
+[0.006691] (cpp_node) JobQueued: {'identifier': 'cpp_node', 'dependencies': OrderedDict()}
+[0.007095] (custom_msg) JobQueued: {'identifier': 'custom_msg', 'dependencies': OrderedDict()}
+[0.008001] (py_node) JobQueued: {'identifier': 'py_node', 'dependencies': OrderedDict()}
+[0.008528] (use_custom_msg) JobQueued: {'identifier': 'use_custom_msg', 'dependencies': OrderedDict([('custom_msg', '/home/matrix/ros2_ws/install/custom_msg')])}
+[0.008812] (custom_msg) JobStarted: {'identifier': 'custom_msg'}
+[0.066989] (cpp_node) JobStarted: {'identifier': 'cpp_node'}
+[0.111047] (-) TimerEvent: {}
+[0.121658] (py_node) JobStarted: {'identifier': 'py_node'}
+[0.216144] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'cmake'}
+[0.216705] (-) TimerEvent: {}
+[0.228159] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'build'}
+[0.228626] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matrix/ros2_ws/build/custom_msg', '--', '-j8', '-l8'], 'cwd': '/home/matrix/ros2_ws/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.272878] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'cmake'}
+[0.281413] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'build'}
+[0.303865] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matrix/ros2_ws/build/cpp_node', '--', '-j8', '-l8'], 'cwd': '/home/matrix/ros2_ws/build/cpp_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/cpp_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.332462] (-) TimerEvent: {}
+[0.449715] (-) TimerEvent: {}
+[0.552855] (-) TimerEvent: {}
+[0.659818] (-) TimerEvent: {}
+[0.667767] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.761942] (-) TimerEvent: {}
+[0.870838] (-) TimerEvent: {}
+[0.976595] (-) TimerEvent: {}
+[1.079153] (-) TimerEvent: {}
+[1.195816] (-) TimerEvent: {}
+[1.301956] (-) TimerEvent: {}
+[1.412563] (-) TimerEvent: {}
+[1.520637] (-) TimerEvent: {}
+[1.626563] (-) TimerEvent: {}
+[1.650878] (cpp_node) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[1.726098] (cpp_node) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[1.727664] (-) TimerEvent: {}
+[1.833908] (-) TimerEvent: {}
+[1.939897] (-) TimerEvent: {}
+[2.048874] (-) TimerEvent: {}
+[2.160023] (-) TimerEvent: {}
+[2.264749] (-) TimerEvent: {}
+[2.301002] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.324113] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.357718] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.368846] (-) TimerEvent: {}
+[2.471008] (-) TimerEvent: {}
+[2.577811] (-) TimerEvent: {}
+[2.669945] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.680781] (-) TimerEvent: {}
+[2.785132] (-) TimerEvent: {}
+[2.888717] (-) TimerEvent: {}
+[2.942905] (custom_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.993688] (-) TimerEvent: {}
+[3.097492] (-) TimerEvent: {}
+[3.188815] (cpp_node) CommandEnded: {'returncode': 0}
+[3.221664] (-) TimerEvent: {}
+[3.229502] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'install'}
+[3.322850] (-) TimerEvent: {}
+[3.382971] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matrix/ros2_ws/build/cpp_node'], 'cwd': '/home/matrix/ros2_ws/build/cpp_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/cpp_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.433923] (-) TimerEvent: {}
+[3.507606] (cpp_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.530653] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/lib/cpp_node/talker\n'}
+[3.537844] (-) TimerEvent: {}
+[3.551749] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/lib/cpp_node/listener\n'}
+[3.563752] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node\n'}
+[3.568579] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node\n'}
+[3.569853] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh\n'}
+[3.570486] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv\n'}
+[3.570952] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/path.sh\n'}
+[3.575872] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/path.dsv\n'}
+[3.577206] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.bash\n'}
+[3.577946] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.sh\n'}
+[3.578651] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.zsh\n'}
+[3.579145] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.dsv\n'}
+[3.584593] (cpp_node) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/package.dsv\n'}
+[3.585148] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node\n'}
+[3.585907] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake\n'}
+[3.593684] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake\n'}
+[3.594494] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/package.xml\n'}
+[3.611695] (cpp_node) CommandEnded: {'returncode': 0}
+[3.650883] (-) TimerEvent: {}
+[3.758465] (-) TimerEvent: {}
+[3.836896] (cpp_node) JobEnded: {'identifier': 'cpp_node', 'rc': 0}
+[3.858844] (-) TimerEvent: {}
+[3.960748] (-) TimerEvent: {}
+[4.063678] (-) TimerEvent: {}
+[4.172039] (-) TimerEvent: {}
+[4.276811] (-) TimerEvent: {}
+[4.379677] (-) TimerEvent: {}
+[4.485893] (-) TimerEvent: {}
+[4.589008] (-) TimerEvent: {}
+[4.695744] (-) TimerEvent: {}
+[4.799646] (-) TimerEvent: {}
+[4.905154] (-) TimerEvent: {}
+[5.010945] (-) TimerEvent: {}
+[5.115782] (-) TimerEvent: {}
+[5.218183] (-) TimerEvent: {}
+[5.327048] (-) TimerEvent: {}
+[5.430804] (-) TimerEvent: {}
+[5.536009] (-) TimerEvent: {}
+[5.647044] (-) TimerEvent: {}
+[5.753714] (-) TimerEvent: {}
+[5.806816] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.856954] (-) TimerEvent: {}
+[5.963680] (-) TimerEvent: {}
+[6.068108] (-) TimerEvent: {}
+[6.175604] (-) TimerEvent: {}
+[6.280708] (-) TimerEvent: {}
+[6.383893] (-) TimerEvent: {}
+[6.489554] (-) TimerEvent: {}
+[6.596598] (-) TimerEvent: {}
+[6.703170] (-) TimerEvent: {}
+[6.810737] (-) TimerEvent: {}
+[6.910811] (py_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_node', 'build', '--build-base', '/home/matrix/ros2_ws/build/py_node/build', 'install', '--record', '/home/matrix/ros2_ws/build/py_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/matrix/ros2_ws/src/py_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'matrix', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/matrix', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '1111', 'SYSTEMD_EXEC_PID': '1624', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5076', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'matrix', 'JOURNAL_STREAM': '8:27097', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matrix', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253', 'INVOCATION_ID': '4755e79ec8344ae3ad840ef3580cd8d1', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BWD572', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matrix/ros2_ws/build/py_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matrix/ros2_ws/build/py_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.930752] (-) TimerEvent: {}
+[7.041631] (-) TimerEvent: {}
+[7.148670] (-) TimerEvent: {}
+[7.255128] (-) TimerEvent: {}
+[7.359715] (-) TimerEvent: {}
+[7.463126] (-) TimerEvent: {}
+[7.571846] (-) TimerEvent: {}
+[7.678503] (-) TimerEvent: {}
+[7.783973] (-) TimerEvent: {}
+[7.886761] (-) TimerEvent: {}
+[7.991052] (-) TimerEvent: {}
+[8.095993] (-) TimerEvent: {}
+[8.191531] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.200959] (-) TimerEvent: {}
+[8.307521] (-) TimerEvent: {}
+[8.413847] (-) TimerEvent: {}
+[8.516968] (-) TimerEvent: {}
+[8.622174] (-) TimerEvent: {}
+[8.724871] (-) TimerEvent: {}
+[8.828755] (-) TimerEvent: {}
+[8.933736] (-) TimerEvent: {}
+[8.975728] (py_node) StdoutLine: {'line': b'running egg_info\n'}
+[8.982746] (py_node) StdoutLine: {'line': b'writing ../../build/py_node/py_node.egg-info/PKG-INFO\n'}
+[8.990159] (py_node) StdoutLine: {'line': b'writing dependency_links to ../../build/py_node/py_node.egg-info/dependency_links.txt\n'}
+[8.995631] (py_node) StdoutLine: {'line': b'writing entry points to ../../build/py_node/py_node.egg-info/entry_points.txt\n'}
+[9.002877] (py_node) StdoutLine: {'line': b'writing requirements to ../../build/py_node/py_node.egg-info/requires.txt\n'}
+[9.008673] (py_node) StdoutLine: {'line': b'writing top-level names to ../../build/py_node/py_node.egg-info/top_level.txt\n'}
+[9.017059] (py_node) StdoutLine: {'line': b"reading manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'\n"}
+[9.030924] (py_node) StdoutLine: {'line': b"writing manifest file '../../build/py_node/py_node.egg-info/SOURCES.txt'\n"}
+[9.034962] (py_node) StdoutLine: {'line': b'running build\n'}
+[9.035590] (-) TimerEvent: {}
+[9.040918] (py_node) StdoutLine: {'line': b'running build_py\n'}
+[9.041648] (py_node) StdoutLine: {'line': b'running install\n'}
+[9.042115] (py_node) StdoutLine: {'line': b'running install_lib\n'}
+[9.054769] (py_node) StdoutLine: {'line': b'running install_data\n'}
+[9.055856] (py_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.068173] (py_node) StdoutLine: {'line': b"removing '/home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.069918] (py_node) StdoutLine: {'line': b'Copying ../../build/py_node/py_node.egg-info to /home/matrix/ros2_ws/install/py_node/lib/python3.10/site-packages/py_node-0.0.0-py3.10.egg-info\n'}
+[9.081462] (py_node) StdoutLine: {'line': b'running install_scripts\n'}
+[9.138706] (-) TimerEvent: {}
+[9.240167] (-) TimerEvent: {}
+[9.255561] (py_node) StdoutLine: {'line': b'Installing listener script to /home/matrix/ros2_ws/install/py_node/lib/py_node\n'}
+[9.260097] (py_node) StdoutLine: {'line': b'Installing talker script to /home/matrix/ros2_ws/install/py_node/lib/py_node\n'}
+[9.265571] (py_node) StdoutLine: {'line': b"writing list of installed files to '/home/matrix/ros2_ws/build/py_node/install.log'\n"}
+[9.341923] (-) TimerEvent: {}
+[9.366213] (py_node) CommandEnded: {'returncode': 0}
+[9.440756] (py_node) JobEnded: {'identifier': 'py_node', 'rc': 0}
+[9.449480] (-) TimerEvent: {}
+[9.550941] (-) TimerEvent: {}
+[9.657587] (-) TimerEvent: {}
+[9.764607] (-) TimerEvent: {}
+[9.872104] (-) TimerEvent: {}
+[9.976139] (-) TimerEvent: {}
+[10.078739] (-) TimerEvent: {}
+[10.180720] (-) TimerEvent: {}
+[10.282183] (-) TimerEvent: {}
+[10.386088] (-) TimerEvent: {}
+[10.488226] (-) TimerEvent: {}
+[10.591753] (-) TimerEvent: {}
+[10.693145] (-) TimerEvent: {}
+[10.757617] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.794135] (-) TimerEvent: {}
+[10.868944] (custom_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.894728] (-) TimerEvent: {}
+[10.973428] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.973853] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.974124] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[10.995523] (-) TimerEvent: {}
+[11.096692] (-) TimerEvent: {}
+[11.131221] (custom_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.197464] (-) TimerEvent: {}
+[11.298710] (-) TimerEvent: {}
+[11.404557] (-) TimerEvent: {}
+[11.414012] (custom_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.468440] (custom_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/matrix/ros2_ws/build/custom_msg\n'}
+[11.505149] (-) TimerEvent: {}
+[11.610835] (-) TimerEvent: {}
+[11.713600] (-) TimerEvent: {}
+[11.742399] (custom_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.816020] (-) TimerEvent: {}
+[11.895148] (custom_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.918543] (-) TimerEvent: {}
+[12.027803] (-) TimerEvent: {}
+[12.079168] (custom_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_msg\n'}
+[12.129882] (-) TimerEvent: {}
+[12.239879] (-) TimerEvent: {}
+[12.346857] (-) TimerEvent: {}
+[12.454001] (-) TimerEvent: {}
+[12.557915] (-) TimerEvent: {}
+[12.661444] (-) TimerEvent: {}
+[12.764822] (-) TimerEvent: {}
+[12.868760] (-) TimerEvent: {}
+[12.980817] (-) TimerEvent: {}
+[13.088130] (-) TimerEvent: {}
+[13.202972] (-) TimerEvent: {}
+[13.308563] (-) TimerEvent: {}
+[13.412695] (-) TimerEvent: {}
+[13.517714] (-) TimerEvent: {}
+[13.620658] (-) TimerEvent: {}
+[13.726690] (-) TimerEvent: {}
+[13.832753] (-) TimerEvent: {}
+[13.946059] (-) TimerEvent: {}
+[13.981023] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_generator_c\x1b[0m\n'}
+[14.046804] (-) TimerEvent: {}
+[14.151583] (-) TimerEvent: {}
+[14.199576] (custom_msg) StdoutLine: {'line': b'[  6%] Built target custom_msg__cpp\n'}
+[14.257203] (-) TimerEvent: {}
+[14.330035] (custom_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/detail/age__functions.c.o\x1b[0m\n'}
+[14.359179] (-) TimerEvent: {}
+[14.447668] (custom_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.465052] (-) TimerEvent: {}
+[14.504529] (custom_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.566011] (-) TimerEvent: {}
+[14.671677] (-) TimerEvent: {}
+[14.778095] (-) TimerEvent: {}
+[14.883623] (-) TimerEvent: {}
+[14.992031] (-) TimerEvent: {}
+[15.100631] (-) TimerEvent: {}
+[15.204670] (-) TimerEvent: {}
+[15.250457] (custom_msg) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_generator_c.so\x1b[0m\n'}
+[15.308161] (-) TimerEvent: {}
+[15.414982] (-) TimerEvent: {}
+[15.520728] (-) TimerEvent: {}
+[15.624460] (custom_msg) StdoutLine: {'line': b'running egg_info\n'}
+[15.625033] (-) TimerEvent: {}
+[15.632957] (custom_msg) StdoutLine: {'line': b'writing custom_msg.egg-info/PKG-INFO\n'}
+[15.641799] (custom_msg) StdoutLine: {'line': b'writing dependency_links to custom_msg.egg-info/dependency_links.txt\n'}
+[15.646597] (custom_msg) StdoutLine: {'line': b'writing top-level names to custom_msg.egg-info/top_level.txt\n'}
+[15.678615] (custom_msg) StdoutLine: {'line': b"reading manifest file 'custom_msg.egg-info/SOURCES.txt'\n"}
+[15.689620] (custom_msg) StdoutLine: {'line': b"writing manifest file 'custom_msg.egg-info/SOURCES.txt'\n"}
+[15.725858] (-) TimerEvent: {}
+[15.831867] (-) TimerEvent: {}
+[15.942586] (-) TimerEvent: {}
+[16.027531] (custom_msg) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_custom_msg_egg\n'}
+[16.043687] (-) TimerEvent: {}
+[16.149789] (-) TimerEvent: {}
+[16.208672] (custom_msg) StdoutLine: {'line': b'[ 19%] Built target custom_msg__rosidl_generator_c\n'}
+[16.251716] (-) TimerEvent: {}
+[16.356742] (-) TimerEvent: {}
+[16.462834] (-) TimerEvent: {}
+[16.565563] (-) TimerEvent: {}
+[16.634630] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[16.666050] (-) TimerEvent: {}
+[16.732798] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.767060] (-) TimerEvent: {}
+[16.873964] (-) TimerEvent: {}
+[16.890500] (custom_msg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/detail/age__type_support.cpp.o\x1b[0m\n'}
+[16.974714] (-) TimerEvent: {}
+[16.985795] (custom_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/detail/dds_fastrtps/age__type_support.cpp.o\x1b[0m\n'}
+[17.078815] (-) TimerEvent: {}
+[17.181691] (-) TimerEvent: {}
+[17.286062] (-) TimerEvent: {}
+[17.391653] (-) TimerEvent: {}
+[17.495856] (-) TimerEvent: {}
+[17.600019] (-) TimerEvent: {}
+[17.703878] (-) TimerEvent: {}
+[17.808753] (-) TimerEvent: {}
+[17.912879] (-) TimerEvent: {}
+[18.020679] (-) TimerEvent: {}
+[18.129994] (-) TimerEvent: {}
+[18.235833] (-) TimerEvent: {}
+[18.341758] (-) TimerEvent: {}
+[18.446032] (-) TimerEvent: {}
+[18.556714] (-) TimerEvent: {}
+[18.662810] (-) TimerEvent: {}
+[18.770775] (-) TimerEvent: {}
+[18.872703] (-) TimerEvent: {}
+[18.981537] (-) TimerEvent: {}
+[19.083888] (-) TimerEvent: {}
+[19.191751] (-) TimerEvent: {}
+[19.293158] (-) TimerEvent: {}
+[19.394698] (-) TimerEvent: {}
+[19.500804] (-) TimerEvent: {}
+[19.602615] (-) TimerEvent: {}
+[19.707682] (-) TimerEvent: {}
+[19.812778] (-) TimerEvent: {}
+[19.915058] (-) TimerEvent: {}
+[20.020865] (-) TimerEvent: {}
+[20.132003] (-) TimerEvent: {}
+[20.234419] (-) TimerEvent: {}
+[20.343626] (-) TimerEvent: {}
+[20.434547] (custom_msg) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.444795] (-) TimerEvent: {}
+[20.462107] (custom_msg) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.547903] (-) TimerEvent: {}
+[20.651628] (-) TimerEvent: {}
+[20.763603] (-) TimerEvent: {}
+[20.866063] (-) TimerEvent: {}
+[20.970805] (-) TimerEvent: {}
+[21.076864] (-) TimerEvent: {}
+[21.186793] (-) TimerEvent: {}
+[21.230602] (custom_msg) StdoutLine: {'line': b'[ 32%] Built target custom_msg__rosidl_typesupport_introspection_cpp\n'}
+[21.295883] (-) TimerEvent: {}
+[21.401844] (-) TimerEvent: {}
+[21.447430] (custom_msg) StdoutLine: {'line': b'[ 32%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[21.505718] (-) TimerEvent: {}
+[21.613638] (-) TimerEvent: {}
+[21.626678] (custom_msg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.713996] (-) TimerEvent: {}
+[21.815955] (-) TimerEvent: {}
+[21.920062] (-) TimerEvent: {}
+[22.021931] (-) TimerEvent: {}
+[22.125702] (-) TimerEvent: {}
+[22.230911] (-) TimerEvent: {}
+[22.333220] (-) TimerEvent: {}
+[22.439669] (-) TimerEvent: {}
+[22.542502] (-) TimerEvent: {}
+[22.645524] (-) TimerEvent: {}
+[22.748037] (-) TimerEvent: {}
+[22.852828] (-) TimerEvent: {}
+[22.955587] (-) TimerEvent: {}
+[23.059155] (-) TimerEvent: {}
+[23.076212] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_c\x1b[0m\n'}
+[23.164176] (-) TimerEvent: {}
+[23.267092] (-) TimerEvent: {}
+[23.323078] (custom_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/age__type_support.cpp.o\x1b[0m\n'}
+[23.372727] (-) TimerEvent: {}
+[23.474648] (-) TimerEvent: {}
+[23.581839] (-) TimerEvent: {}
+[23.688578] (-) TimerEvent: {}
+[23.789923] (-) TimerEvent: {}
+[23.816204] (custom_msg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[23.890668] (-) TimerEvent: {}
+[24.000675] (-) TimerEvent: {}
+[24.106673] (-) TimerEvent: {}
+[24.208836] (-) TimerEvent: {}
+[24.312645] (-) TimerEvent: {}
+[24.417566] (-) TimerEvent: {}
+[24.446826] (custom_msg) StdoutLine: {'line': b'[ 41%] Built target custom_msg__rosidl_typesupport_c\n'}
+[24.519755] (-) TimerEvent: {}
+[24.628022] (-) TimerEvent: {}
+[24.644530] (custom_msg) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[24.728833] (-) TimerEvent: {}
+[24.833772] (-) TimerEvent: {}
+[24.939810] (-) TimerEvent: {}
+[25.048011] (-) TimerEvent: {}
+[25.156629] (-) TimerEvent: {}
+[25.263502] (-) TimerEvent: {}
+[25.365200] (-) TimerEvent: {}
+[25.471070] (-) TimerEvent: {}
+[25.573070] (-) TimerEvent: {}
+[25.680139] (-) TimerEvent: {}
+[25.781604] (-) TimerEvent: {}
+[25.887644] (-) TimerEvent: {}
+[25.992716] (-) TimerEvent: {}
+[26.103126] (-) TimerEvent: {}
+[26.121012] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[26.204203] (-) TimerEvent: {}
+[26.309139] (custom_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/detail/age__type_support.c.o\x1b[0m\n'}
+[26.310917] (-) TimerEvent: {}
+[26.417571] (-) TimerEvent: {}
+[26.522065] (-) TimerEvent: {}
+[26.623623] (-) TimerEvent: {}
+[26.726805] (-) TimerEvent: {}
+[26.834593] (-) TimerEvent: {}
+[26.843139] (custom_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[26.935214] (-) TimerEvent: {}
+[27.041796] (-) TimerEvent: {}
+[27.153924] (-) TimerEvent: {}
+[27.259816] (-) TimerEvent: {}
+[27.364819] (-) TimerEvent: {}
+[27.372519] (custom_msg) StdoutLine: {'line': b'[ 51%] Built target custom_msg__rosidl_typesupport_introspection_c\n'}
+[27.472688] (-) TimerEvent: {}
+[27.550929] (custom_msg) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[27.573791] (-) TimerEvent: {}
+[27.679830] (-) TimerEvent: {}
+[27.783943] (-) TimerEvent: {}
+[27.891076] (-) TimerEvent: {}
+[27.995846] (-) TimerEvent: {}
+[28.098024] (-) TimerEvent: {}
+[28.205985] (-) TimerEvent: {}
+[28.309863] (-) TimerEvent: {}
+[28.415998] (-) TimerEvent: {}
+[28.522160] (-) TimerEvent: {}
+[28.626973] (-) TimerEvent: {}
+[28.730977] (-) TimerEvent: {}
+[28.834885] (-) TimerEvent: {}
+[28.941712] (-) TimerEvent: {}
+[29.043552] (-) TimerEvent: {}
+[29.146184] (-) TimerEvent: {}
+[29.250517] (-) TimerEvent: {}
+[29.271984] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[29.351021] (-) TimerEvent: {}
+[29.453654] (-) TimerEvent: {}
+[29.511530] (custom_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/age__type_support_c.cpp.o\x1b[0m\n'}
+[29.554456] (-) TimerEvent: {}
+[29.665788] (-) TimerEvent: {}
+[29.767218] (-) TimerEvent: {}
+[29.871891] (-) TimerEvent: {}
+[29.979018] (-) TimerEvent: {}
+[30.083112] (-) TimerEvent: {}
+[30.188805] (-) TimerEvent: {}
+[30.291633] (-) TimerEvent: {}
+[30.396477] (-) TimerEvent: {}
+[30.499062] (-) TimerEvent: {}
+[30.604757] (-) TimerEvent: {}
+[30.709675] (-) TimerEvent: {}
+[30.816721] (-) TimerEvent: {}
+[30.921919] (-) TimerEvent: {}
+[31.029775] (-) TimerEvent: {}
+[31.131597] (-) TimerEvent: {}
+[31.234172] (-) TimerEvent: {}
+[31.339185] (-) TimerEvent: {}
+[31.445179] (-) TimerEvent: {}
+[31.549039] (-) TimerEvent: {}
+[31.653188] (-) TimerEvent: {}
+[31.757756] (-) TimerEvent: {}
+[31.861622] (-) TimerEvent: {}
+[31.967083] (-) TimerEvent: {}
+[32.073849] (-) TimerEvent: {}
+[32.177825] (-) TimerEvent: {}
+[32.282559] (-) TimerEvent: {}
+[32.386080] (-) TimerEvent: {}
+[32.490196] (-) TimerEvent: {}
+[32.579136] (custom_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[32.592732] (-) TimerEvent: {}
+[32.698740] (-) TimerEvent: {}
+[32.801789] (-) TimerEvent: {}
+[32.906503] (-) TimerEvent: {}
+[33.017917] (-) TimerEvent: {}
+[33.121069] (-) TimerEvent: {}
+[33.230925] (-) TimerEvent: {}
+[33.339526] (-) TimerEvent: {}
+[33.446742] (-) TimerEvent: {}
+[33.558058] (-) TimerEvent: {}
+[33.661937] (-) TimerEvent: {}
+[33.774946] (-) TimerEvent: {}
+[33.878007] (custom_msg) StdoutLine: {'line': b'[ 61%] Built target custom_msg__rosidl_typesupport_fastrtps_c\n'}
+[33.880902] (-) TimerEvent: {}
+[33.990809] (-) TimerEvent: {}
+[34.099158] (-) TimerEvent: {}
+[34.216125] (-) TimerEvent: {}
+[34.306003] (custom_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[34.317099] (-) TimerEvent: {}
+[34.421220] (-) TimerEvent: {}
+[34.531046] (-) TimerEvent: {}
+[34.640061] (-) TimerEvent: {}
+[34.742765] (-) TimerEvent: {}
+[34.848113] (-) TimerEvent: {}
+[34.961137] (-) TimerEvent: {}
+[35.070949] (-) TimerEvent: {}
+[35.174942] (-) TimerEvent: {}
+[35.280913] (-) TimerEvent: {}
+[35.384143] (-) TimerEvent: {}
+[35.493014] (-) TimerEvent: {}
+[35.604624] (-) TimerEvent: {}
+[35.718162] (-) TimerEvent: {}
+[35.829104] (-) TimerEvent: {}
+[35.951962] (-) TimerEvent: {}
+[36.056088] (-) TimerEvent: {}
+[36.168032] (-) TimerEvent: {}
+[36.278211] (-) TimerEvent: {}
+[36.395000] (-) TimerEvent: {}
+[36.519934] (-) TimerEvent: {}
+[36.632974] (-) TimerEvent: {}
+[36.740650] (-) TimerEvent: {}
+[36.850790] (-) TimerEvent: {}
+[36.959026] (-) TimerEvent: {}
+[37.064740] (-) TimerEvent: {}
+[37.175824] (-) TimerEvent: {}
+[37.286001] (-) TimerEvent: {}
+[37.398651] (-) TimerEvent: {}
+[37.493119] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[37.501142] (-) TimerEvent: {}
+[37.606744] (-) TimerEvent: {}
+[37.714001] (-) TimerEvent: {}
+[37.809685] (custom_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/age__type_support.cpp.o\x1b[0m\n'}
+[37.816914] (-) TimerEvent: {}
+[37.925122] (-) TimerEvent: {}
+[38.031161] (-) TimerEvent: {}
+[38.135485] (-) TimerEvent: {}
+[38.237725] (-) TimerEvent: {}
+[38.341947] (-) TimerEvent: {}
+[38.448848] (-) TimerEvent: {}
+[38.565623] (-) TimerEvent: {}
+[38.678620] (-) TimerEvent: {}
+[38.793101] (-) TimerEvent: {}
+[38.911045] (-) TimerEvent: {}
+[39.021185] (-) TimerEvent: {}
+[39.129131] (-) TimerEvent: {}
+[39.246968] (-) TimerEvent: {}
+[39.353873] (-) TimerEvent: {}
+[39.480610] (-) TimerEvent: {}
+[39.590686] (-) TimerEvent: {}
+[39.696786] (-) TimerEvent: {}
+[39.805909] (-) TimerEvent: {}
+[39.917995] (-) TimerEvent: {}
+[40.027048] (-) TimerEvent: {}
+[40.136833] (-) TimerEvent: {}
+[40.245030] (-) TimerEvent: {}
+[40.349735] (-) TimerEvent: {}
+[40.461975] (-) TimerEvent: {}
+[40.574868] (-) TimerEvent: {}
+[40.686011] (-) TimerEvent: {}
+[40.794159] (-) TimerEvent: {}
+[40.905648] (-) TimerEvent: {}
+[41.018978] (-) TimerEvent: {}
+[41.126781] (-) TimerEvent: {}
+[41.230877] (-) TimerEvent: {}
+[41.333692] (-) TimerEvent: {}
+[41.437230] (-) TimerEvent: {}
+[41.546033] (-) TimerEvent: {}
+[41.659661] (-) TimerEvent: {}
+[41.764186] (-) TimerEvent: {}
+[41.872979] (-) TimerEvent: {}
+[41.983813] (-) TimerEvent: {}
+[42.094929] (-) TimerEvent: {}
+[42.201119] (-) TimerEvent: {}
+[42.309684] (-) TimerEvent: {}
+[42.416021] (-) TimerEvent: {}
+[42.475966] (custom_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[42.519892] (-) TimerEvent: {}
+[42.624969] (-) TimerEvent: {}
+[42.729578] (-) TimerEvent: {}
+[42.833704] (-) TimerEvent: {}
+[42.940019] (-) TimerEvent: {}
+[43.042742] (-) TimerEvent: {}
+[43.101939] (custom_msg) StdoutLine: {'line': b'[ 70%] Built target custom_msg__rosidl_typesupport_cpp\n'}
+[43.145480] (-) TimerEvent: {}
+[43.248875] (-) TimerEvent: {}
+[43.350542] (-) TimerEvent: {}
+[43.455674] (-) TimerEvent: {}
+[43.591998] (-) TimerEvent: {}
+[43.596014] (custom_msg) StdoutLine: {'line': b'[ 70%] Built target custom_msg\n'}
+[43.668831] (-) TimerEvent: {}
+[43.773092] (-) TimerEvent: {}
+[43.877748] (-) TimerEvent: {}
+[43.980009] (-) TimerEvent: {}
+[43.987083] (custom_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[44.087685] (-) TimerEvent: {}
+[44.202858] (-) TimerEvent: {}
+[44.312134] (-) TimerEvent: {}
+[44.416095] (-) TimerEvent: {}
+[44.517936] (-) TimerEvent: {}
+[44.622087] (-) TimerEvent: {}
+[44.729906] (-) TimerEvent: {}
+[44.835745] (-) TimerEvent: {}
+[44.939114] (-) TimerEvent: {}
+[45.043851] (-) TimerEvent: {}
+[45.147917] (-) TimerEvent: {}
+[45.254706] (-) TimerEvent: {}
+[45.357007] (-) TimerEvent: {}
+[45.461777] (-) TimerEvent: {}
+[45.568688] (-) TimerEvent: {}
+[45.676797] (-) TimerEvent: {}
+[45.780859] (-) TimerEvent: {}
+[45.889658] (-) TimerEvent: {}
+[45.998937] (-) TimerEvent: {}
+[46.102686] (-) TimerEvent: {}
+[46.183673] (custom_msg) StdoutLine: {'line': b'[ 74%] Built target custom_msg__py\n'}
+[46.205652] (-) TimerEvent: {}
+[46.313054] (-) TimerEvent: {}
+[46.417039] (-) TimerEvent: {}
+[46.421562] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_generator_py\x1b[0m\n'}
+[46.520047] (-) TimerEvent: {}
+[46.624682] (-) TimerEvent: {}
+[46.715759] (custom_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_py.dir/rosidl_generator_py/custom_msg/msg/_age_s.c.o\x1b[0m\n'}
+[46.729895] (-) TimerEvent: {}
+[46.832094] (-) TimerEvent: {}
+[46.939945] (-) TimerEvent: {}
+[47.044562] (-) TimerEvent: {}
+[47.147801] (-) TimerEvent: {}
+[47.250184] (-) TimerEvent: {}
+[47.354197] (-) TimerEvent: {}
+[47.456571] (-) TimerEvent: {}
+[47.562843] (-) TimerEvent: {}
+[47.664850] (-) TimerEvent: {}
+[47.766839] (-) TimerEvent: {}
+[47.869616] (-) TimerEvent: {}
+[47.972902] (-) TimerEvent: {}
+[48.079615] (-) TimerEvent: {}
+[48.088014] (custom_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__rosidl_generator_py.so\x1b[0m\n'}
+[48.181820] (-) TimerEvent: {}
+[48.287615] (-) TimerEvent: {}
+[48.390637] (-) TimerEvent: {}
+[48.496891] (-) TimerEvent: {}
+[48.599751] (-) TimerEvent: {}
+[48.704624] (-) TimerEvent: {}
+[48.803111] (custom_msg) StdoutLine: {'line': b'[ 80%] Built target custom_msg__rosidl_generator_py\n'}
+[48.805084] (-) TimerEvent: {}
+[48.907773] (-) TimerEvent: {}
+[49.003945] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[49.008977] (-) TimerEvent: {}
+[49.116175] (-) TimerEvent: {}
+[49.223623] (custom_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[49.225474] (-) TimerEvent: {}
+[49.329685] (-) TimerEvent: {}
+[49.430963] (-) TimerEvent: {}
+[49.536499] (-) TimerEvent: {}
+[49.641591] (-) TimerEvent: {}
+[49.744539] (-) TimerEvent: {}
+[49.850599] (-) TimerEvent: {}
+[49.954757] (-) TimerEvent: {}
+[50.056677] (-) TimerEvent: {}
+[50.161455] (-) TimerEvent: {}
+[50.263612] (-) TimerEvent: {}
+[50.368983] (-) TimerEvent: {}
+[50.471683] (-) TimerEvent: {}
+[50.575817] (-) TimerEvent: {}
+[50.680805] (-) TimerEvent: {}
+[50.710591] (custom_msg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[50.781618] (-) TimerEvent: {}
+[50.885838] (-) TimerEvent: {}
+[50.989832] (-) TimerEvent: {}
+[51.096708] (-) TimerEvent: {}
+[51.198217] (-) TimerEvent: {}
+[51.302614] (-) TimerEvent: {}
+[51.359079] (custom_msg) StdoutLine: {'line': b'[ 87%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[51.405905] (-) TimerEvent: {}
+[51.513818] (-) TimerEvent: {}
+[51.554729] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[51.617663] (-) TimerEvent: {}
+[51.719987] (-) TimerEvent: {}
+[51.776753] (custom_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[51.821060] (-) TimerEvent: {}
+[51.923684] (-) TimerEvent: {}
+[52.028767] (-) TimerEvent: {}
+[52.130627] (-) TimerEvent: {}
+[52.235002] (-) TimerEvent: {}
+[52.339879] (-) TimerEvent: {}
+[52.441763] (-) TimerEvent: {}
+[52.550039] (-) TimerEvent: {}
+[52.653415] (-) TimerEvent: {}
+[52.761986] (-) TimerEvent: {}
+[52.866871] (-) TimerEvent: {}
+[52.969706] (-) TimerEvent: {}
+[53.072904] (-) TimerEvent: {}
+[53.177894] (-) TimerEvent: {}
+[53.224732] (custom_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[53.280192] (-) TimerEvent: {}
+[53.382634] (-) TimerEvent: {}
+[53.485748] (-) TimerEvent: {}
+[53.588897] (-) TimerEvent: {}
+[53.701000] (-) TimerEvent: {}
+[53.803917] (-) TimerEvent: {}
+[53.916825] (-) TimerEvent: {}
+[53.936976] (custom_msg) StdoutLine: {'line': b'[ 93%] Built target custom_msg__rosidl_typesupport_c__pyext\n'}
+[54.018565] (-) TimerEvent: {}
+[54.124103] (-) TimerEvent: {}
+[54.151104] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[54.227500] (-) TimerEvent: {}
+[54.329123] (-) TimerEvent: {}
+[54.402943] (custom_msg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[54.430168] (-) TimerEvent: {}
+[54.536727] (-) TimerEvent: {}
+[54.648155] (-) TimerEvent: {}
+[54.750836] (-) TimerEvent: {}
+[54.858924] (-) TimerEvent: {}
+[54.960803] (-) TimerEvent: {}
+[55.066112] (-) TimerEvent: {}
+[55.170874] (-) TimerEvent: {}
+[55.275589] (-) TimerEvent: {}
+[55.379760] (-) TimerEvent: {}
+[55.482115] (-) TimerEvent: {}
+[55.586931] (-) TimerEvent: {}
+[55.690636] (-) TimerEvent: {}
+[55.792615] (-) TimerEvent: {}
+[55.897019] (-) TimerEvent: {}
+[55.981828] (custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[55.998757] (-) TimerEvent: {}
+[56.105916] (-) TimerEvent: {}
+[56.212527] (-) TimerEvent: {}
+[56.322677] (-) TimerEvent: {}
+[56.431760] (-) TimerEvent: {}
+[56.535714] (-) TimerEvent: {}
+[56.612671] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[56.636796] (-) TimerEvent: {}
+[56.742119] (-) TimerEvent: {}
+[56.797613] (custom_msg) CommandEnded: {'returncode': 0}
+[56.805143] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'install'}
+[56.821213] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matrix/ros2_ws/build/custom_msg'], 'cwd': '/home/matrix/ros2_ws/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[56.843100] (-) TimerEvent: {}
+[56.945041] (-) TimerEvent: {}
+[56.962459] (custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.964632] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg\n'}
+[56.966368] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg\n'}
+[56.966932] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[56.969128] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[56.969782] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/age.h\n'}
+[56.972425] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[56.972964] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__functions.c\n'}
+[56.978094] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__functions.h\n'}
+[56.980480] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__struct.h\n'}
+[56.980967] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__type_support.h\n'}
+[56.985123] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/library_path.sh\n'}
+[56.989064] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/library_path.dsv\n'}
+[56.998477] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so\n'}
+[57.020664] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""\n'}
+[57.024873] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg\n'}
+[57.026023] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[57.029635] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[57.030841] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[57.032012] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__rosidl_typesupport_fastrtps_c.h\n'}
+[57.035568] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[57.046991] (-) TimerEvent: {}
+[57.057931] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[57.062708] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg\n'}
+[57.068939] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[57.069764] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[57.070435] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[57.072531] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__rosidl_typesupport_introspection_c.h\n'}
+[57.075616] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__type_support.c\n'}
+[57.087078] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so\n'}
+[57.105533] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[57.117528] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so\n'}
+[57.125607] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""\n'}
+[57.131018] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg\n'}
+[57.132539] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[57.133890] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[57.135013] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/age.hpp\n'}
+[57.139114] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[57.140751] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__type_support.hpp\n'}
+[57.147120] (-) TimerEvent: {}
+[57.148176] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__struct.hpp\n'}
+[57.150920] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__builder.hpp\n'}
+[57.153533] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__traits.hpp\n'}
+[57.163682] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg\n'}
+[57.164570] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[57.165479] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[57.166128] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[57.168418] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[57.168953] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/dds_fastrtps\n'}
+[57.172745] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[57.184224] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[57.191952] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg\n'}
+[57.193157] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[57.198028] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[57.198636] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__type_support.cpp\n'}
+[57.201458] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/include/custom_msg/custom_msg/msg/detail/age__rosidl_typesupport_introspection_cpp.hpp\n'}
+[57.202502] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[57.217708] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[57.226732] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so\n'}
+[57.238752] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[57.240755] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.sh\n'}
+[57.245202] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.dsv\n'}
+[57.247073] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info\n'}
+[57.252850] (-) TimerEvent: {}
+[57.254458] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[57.260628] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[57.261470] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[57.262068] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[57.263680] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg\n'}
+[57.264212] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[57.264841] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/libcustom_msg__rosidl_generator_py.so\n'}
+[57.268758] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg\n'}
+[57.270123] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_age.py\n'}
+[57.278785] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_age_s.c\n'}
+[57.279921] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/__init__.py\n'}
+[57.284897] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/__init__.py\n'}
+[57.285728] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[57.286188] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[57.291155] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c\n'}
+[57.291861] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[57.292496] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[57.352124] (-) TimerEvent: {}
+[57.457829] (-) TimerEvent: {}
+[57.560212] (-) TimerEvent: {}
+[57.567614] (custom_msg) StdoutLine: {'line': b"Listing '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg'...\n"}
+[57.568635] (custom_msg) StdoutLine: {'line': b"Compiling '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/__init__.py'...\n"}
+[57.569183] (custom_msg) StdoutLine: {'line': b"Listing '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg'...\n"}
+[57.570120] (custom_msg) StdoutLine: {'line': b"Compiling '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/__init__.py'...\n"}
+[57.573404] (custom_msg) StdoutLine: {'line': b"Compiling '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_age.py'...\n"}
+[57.595654] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[57.606194] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[57.613635] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[57.624709] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[57.633050] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[57.645644] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[57.654520] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so\n'}
+[57.661044] (-) TimerEvent: {}
+[57.673589] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so" to ""\n'}
+[57.675856] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/msg/Age.idl\n'}
+[57.684447] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/msg/Age.msg\n'}
+[57.686158] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg\n'}
+[57.688888] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg\n'}
+[57.692653] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh\n'}
+[57.693192] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.dsv\n'}
+[57.697778] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/path.sh\n'}
+[57.698598] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/environment/path.dsv\n'}
+[57.702456] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/local_setup.bash\n'}
+[57.703519] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/local_setup.sh\n'}
+[57.705029] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/local_setup.zsh\n'}
+[57.705723] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/local_setup.dsv\n'}
+[57.708111] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/package.dsv\n'}
+[57.711903] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/ament_index/resource_index/packages/custom_msg\n'}
+[57.716691] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cExport.cmake\n'}
+[57.718216] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[57.723704] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[57.724787] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[57.725816] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[57.726759] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[57.727869] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport.cmake\n'}
+[57.735629] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[57.739542] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cppExport.cmake\n'}
+[57.740027] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[57.741086] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[57.746688] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[57.747456] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[57.748420] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport.cmake\n'}
+[57.750629] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[57.752002] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_pyExport.cmake\n'}
+[57.754049] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[57.754698] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[57.756994] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[57.757745] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[57.759509] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[57.761517] (-) TimerEvent: {}
+[57.762891] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[57.763556] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[57.764115] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[57.764742] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake\n'}
+[57.765185] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake\n'}
+[57.765928] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/custom_msg/share/custom_msg/package.xml\n'}
+[57.803679] (custom_msg) CommandEnded: {'returncode': 0}
+[57.866772] (-) TimerEvent: {}
+[57.970134] (custom_msg) JobEnded: {'identifier': 'custom_msg', 'rc': 0}
+[57.983879] (-) TimerEvent: {}
+[57.985929] (use_custom_msg) JobStarted: {'identifier': 'use_custom_msg'}
+[58.084820] (-) TimerEvent: {}
+[58.114683] (use_custom_msg) JobProgress: {'identifier': 'use_custom_msg', 'progress': 'cmake'}
+[58.131935] (use_custom_msg) JobProgress: {'identifier': 'use_custom_msg', 'progress': 'build'}
+[58.134902] (use_custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matrix/ros2_ws/build/use_custom_msg', '--', '-j8', '-l8'], 'cwd': '/home/matrix/ros2_ws/build/use_custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matrix/ros2_ws/install/custom_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/use_custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble')]), 'shell': False}
+[58.186545] (-) TimerEvent: {}
+[58.293081] (-) TimerEvent: {}
+[58.398539] (-) TimerEvent: {}
+[58.501983] (-) TimerEvent: {}
+[58.607428] (-) TimerEvent: {}
+[58.709602] (-) TimerEvent: {}
+[58.798615] (use_custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_listner\x1b[0m\n'}
+[58.812407] (-) TimerEvent: {}
+[58.914131] (-) TimerEvent: {}
+[59.019100] (-) TimerEvent: {}
+[59.127018] (-) TimerEvent: {}
+[59.143128] (use_custom_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o\x1b[0m\n'}
+[59.229996] (-) TimerEvent: {}
+[59.334493] (-) TimerEvent: {}
+[59.439601] (-) TimerEvent: {}
+[59.545952] (-) TimerEvent: {}
+[59.652190] (-) TimerEvent: {}
+[59.755720] (-) TimerEvent: {}
+[59.859476] (-) TimerEvent: {}
+[59.961864] (-) TimerEvent: {}
+[60.066776] (-) TimerEvent: {}
+[60.168880] (-) TimerEvent: {}
+[60.272013] (-) TimerEvent: {}
+[60.374594] (-) TimerEvent: {}
+[60.479537] (-) TimerEvent: {}
+[60.584723] (-) TimerEvent: {}
+[60.686743] (-) TimerEvent: {}
+[60.793618] (-) TimerEvent: {}
+[60.896923] (-) TimerEvent: {}
+[61.001882] (-) TimerEvent: {}
+[61.108084] (-) TimerEvent: {}
+[61.213757] (-) TimerEvent: {}
+[61.315701] (-) TimerEvent: {}
+[61.421008] (-) TimerEvent: {}
+[61.526522] (-) TimerEvent: {}
+[61.632055] (-) TimerEvent: {}
+[61.738810] (-) TimerEvent: {}
+[61.843149] (-) TimerEvent: {}
+[61.948159] (-) TimerEvent: {}
+[62.053933] (-) TimerEvent: {}
+[62.161515] (-) TimerEvent: {}
+[62.268669] (-) TimerEvent: {}
+[62.377123] (-) TimerEvent: {}
+[62.479601] (-) TimerEvent: {}
+[62.581888] (-) TimerEvent: {}
+[62.683552] (-) TimerEvent: {}
+[62.784806] (-) TimerEvent: {}
+[62.886110] (-) TimerEvent: {}
+[62.987595] (-) TimerEvent: {}
+[63.093638] (-) TimerEvent: {}
+[63.197906] (-) TimerEvent: {}
+[63.299538] (-) TimerEvent: {}
+[63.400466] (-) TimerEvent: {}
+[63.501767] (-) TimerEvent: {}
+[63.602978] (-) TimerEvent: {}
+[63.703863] (-) TimerEvent: {}
+[63.804949] (-) TimerEvent: {}
+[63.905976] (-) TimerEvent: {}
+[64.008962] (-) TimerEvent: {}
+[64.114678] (-) TimerEvent: {}
+[64.216089] (-) TimerEvent: {}
+[64.317892] (-) TimerEvent: {}
+[64.419730] (-) TimerEvent: {}
+[64.520991] (-) TimerEvent: {}
+[64.623137] (-) TimerEvent: {}
+[64.726814] (-) TimerEvent: {}
+[64.830739] (-) TimerEvent: {}
+[64.932606] (-) TimerEvent: {}
+[65.034468] (-) TimerEvent: {}
+[65.139409] (-) TimerEvent: {}
+[65.241581] (-) TimerEvent: {}
+[65.342979] (-) TimerEvent: {}
+[65.443980] (-) TimerEvent: {}
+[65.545885] (-) TimerEvent: {}
+[65.647138] (-) TimerEvent: {}
+[65.748103] (-) TimerEvent: {}
+[65.849191] (-) TimerEvent: {}
+[65.950109] (-) TimerEvent: {}
+[66.051043] (-) TimerEvent: {}
+[66.152017] (-) TimerEvent: {}
+[66.253048] (-) TimerEvent: {}
+[66.354102] (-) TimerEvent: {}
+[66.455166] (-) TimerEvent: {}
+[66.556115] (-) TimerEvent: {}
+[66.657157] (-) TimerEvent: {}
+[66.758143] (-) TimerEvent: {}
+[66.858988] (-) TimerEvent: {}
+[66.960087] (-) TimerEvent: {}
+[67.062030] (-) TimerEvent: {}
+[67.162987] (-) TimerEvent: {}
+[67.263964] (-) TimerEvent: {}
+[67.364925] (-) TimerEvent: {}
+[67.466013] (-) TimerEvent: {}
+[67.567424] (-) TimerEvent: {}
+[67.668222] (-) TimerEvent: {}
+[67.769386] (-) TimerEvent: {}
+[67.870193] (-) TimerEvent: {}
+[67.971197] (-) TimerEvent: {}
+[68.072442] (-) TimerEvent: {}
+[68.173397] (-) TimerEvent: {}
+[68.274362] (-) TimerEvent: {}
+[68.376047] (-) TimerEvent: {}
+[68.477035] (-) TimerEvent: {}
+[68.578030] (-) TimerEvent: {}
+[68.679607] (-) TimerEvent: {}
+[68.781086] (-) TimerEvent: {}
+[68.882461] (-) TimerEvent: {}
+[68.984600] (-) TimerEvent: {}
+[69.086423] (-) TimerEvent: {}
+[69.188633] (-) TimerEvent: {}
+[69.290490] (-) TimerEvent: {}
+[69.391522] (-) TimerEvent: {}
+[69.493990] (-) TimerEvent: {}
+[69.595083] (-) TimerEvent: {}
+[69.697607] (-) TimerEvent: {}
+[69.798647] (-) TimerEvent: {}
+[69.900565] (-) TimerEvent: {}
+[70.003380] (-) TimerEvent: {}
+[70.104768] (-) TimerEvent: {}
+[70.209561] (-) TimerEvent: {}
+[70.311793] (-) TimerEvent: {}
+[70.416612] (-) TimerEvent: {}
+[70.518135] (-) TimerEvent: {}
+[70.620582] (-) TimerEvent: {}
+[70.721970] (-) TimerEvent: {}
+[70.824498] (-) TimerEvent: {}
+[70.925490] (-) TimerEvent: {}
+[71.026486] (-) TimerEvent: {}
+[71.128465] (-) TimerEvent: {}
+[71.230910] (-) TimerEvent: {}
+[71.333743] (-) TimerEvent: {}
+[71.436508] (-) TimerEvent: {}
+[71.544499] (-) TimerEvent: {}
+[71.645536] (-) TimerEvent: {}
+[71.746430] (-) TimerEvent: {}
+[71.848034] (-) TimerEvent: {}
+[71.951902] (-) TimerEvent: {}
+[72.052868] (-) TimerEvent: {}
+[72.153911] (-) TimerEvent: {}
+[72.254895] (-) TimerEvent: {}
+[72.355892] (-) TimerEvent: {}
+[72.457000] (-) TimerEvent: {}
+[72.557988] (-) TimerEvent: {}
+[72.658997] (-) TimerEvent: {}
+[72.760141] (-) TimerEvent: {}
+[72.861126] (-) TimerEvent: {}
+[72.962485] (-) TimerEvent: {}
+[73.063474] (-) TimerEvent: {}
+[73.164441] (-) TimerEvent: {}
+[73.265639] (-) TimerEvent: {}
+[73.366995] (-) TimerEvent: {}
+[73.468100] (-) TimerEvent: {}
+[73.569135] (-) TimerEvent: {}
+[73.670090] (-) TimerEvent: {}
+[73.771212] (-) TimerEvent: {}
+[73.872399] (-) TimerEvent: {}
+[73.973341] (-) TimerEvent: {}
+[74.074403] (-) TimerEvent: {}
+[74.175419] (-) TimerEvent: {}
+[74.276387] (-) TimerEvent: {}
+[74.377402] (-) TimerEvent: {}
+[74.478631] (-) TimerEvent: {}
+[74.579896] (-) TimerEvent: {}
+[74.681894] (-) TimerEvent: {}
+[74.783186] (-) TimerEvent: {}
+[74.884557] (-) TimerEvent: {}
+[74.985692] (-) TimerEvent: {}
+[75.087805] (-) TimerEvent: {}
+[75.189093] (-) TimerEvent: {}
+[75.290782] (-) TimerEvent: {}
+[75.392521] (-) TimerEvent: {}
+[75.494497] (-) TimerEvent: {}
+[75.596417] (-) TimerEvent: {}
+[75.697510] (-) TimerEvent: {}
+[75.799643] (-) TimerEvent: {}
+[75.901628] (-) TimerEvent: {}
+[76.002585] (-) TimerEvent: {}
+[76.104156] (-) TimerEvent: {}
+[76.205900] (-) TimerEvent: {}
+[76.307581] (-) TimerEvent: {}
+[76.409203] (-) TimerEvent: {}
+[76.511402] (-) TimerEvent: {}
+[76.612520] (-) TimerEvent: {}
+[76.714509] (-) TimerEvent: {}
+[76.816132] (-) TimerEvent: {}
+[76.917804] (-) TimerEvent: {}
+[77.019887] (-) TimerEvent: {}
+[77.121608] (-) TimerEvent: {}
+[77.224376] (-) TimerEvent: {}
+[77.326405] (-) TimerEvent: {}
+[77.428552] (-) TimerEvent: {}
+[77.530766] (-) TimerEvent: {}
+[77.633081] (-) TimerEvent: {}
+[77.735844] (-) TimerEvent: {}
+[77.837891] (-) TimerEvent: {}
+[77.945018] (-) TimerEvent: {}
+[78.046128] (-) TimerEvent: {}
+[78.148146] (-) TimerEvent: {}
+[78.249856] (-) TimerEvent: {}
+[78.352171] (-) TimerEvent: {}
+[78.454866] (-) TimerEvent: {}
+[78.558026] (-) TimerEvent: {}
+[78.659748] (-) TimerEvent: {}
+[78.763098] (-) TimerEvent: {}
+[78.864892] (-) TimerEvent: {}
+[78.967003] (-) TimerEvent: {}
+[79.070159] (-) TimerEvent: {}
+[79.172503] (-) TimerEvent: {}
+[79.274547] (-) TimerEvent: {}
+[79.376487] (-) TimerEvent: {}
+[79.479174] (-) TimerEvent: {}
+[79.580629] (-) TimerEvent: {}
+[79.682132] (-) TimerEvent: {}
+[79.784067] (-) TimerEvent: {}
+[79.885661] (-) TimerEvent: {}
+[79.987789] (-) TimerEvent: {}
+[80.089081] (-) TimerEvent: {}
+[80.192597] (-) TimerEvent: {}
+[80.295680] (-) TimerEvent: {}
+[80.401075] (-) TimerEvent: {}
+[80.503819] (-) TimerEvent: {}
+[80.605878] (-) TimerEvent: {}
+[80.707176] (-) TimerEvent: {}
+[80.808523] (-) TimerEvent: {}
+[80.909938] (-) TimerEvent: {}
+[81.015571] (-) TimerEvent: {}
+[81.117117] (-) TimerEvent: {}
+[81.219847] (-) TimerEvent: {}
+[81.326656] (-) TimerEvent: {}
+[81.427731] (-) TimerEvent: {}
+[81.528853] (-) TimerEvent: {}
+[81.630542] (-) TimerEvent: {}
+[81.732623] (-) TimerEvent: {}
+[81.834382] (-) TimerEvent: {}
+[81.935603] (-) TimerEvent: {}
+[82.038487] (-) TimerEvent: {}
+[82.139894] (-) TimerEvent: {}
+[82.241621] (-) TimerEvent: {}
+[82.342833] (-) TimerEvent: {}
+[82.444511] (-) TimerEvent: {}
+[82.545609] (-) TimerEvent: {}
+[82.646850] (-) TimerEvent: {}
+[82.748133] (-) TimerEvent: {}
+[82.849551] (-) TimerEvent: {}
+[82.951010] (-) TimerEvent: {}
+[83.053019] (-) TimerEvent: {}
+[83.155083] (-) TimerEvent: {}
+[83.236686] (use_custom_msg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable custom_listner\x1b[0m\n'}
+[83.258539] (-) TimerEvent: {}
+[83.360601] (-) TimerEvent: {}
+[83.465867] (-) TimerEvent: {}
+[83.572985] (-) TimerEvent: {}
+[83.678051] (-) TimerEvent: {}
+[83.784865] (-) TimerEvent: {}
+[83.886727] (-) TimerEvent: {}
+[83.989528] (-) TimerEvent: {}
+[84.093576] (-) TimerEvent: {}
+[84.198663] (-) TimerEvent: {}
+[84.307642] (-) TimerEvent: {}
+[84.411782] (-) TimerEvent: {}
+[84.514715] (-) TimerEvent: {}
+[84.618881] (-) TimerEvent: {}
+[84.722062] (-) TimerEvent: {}
+[84.828786] (-) TimerEvent: {}
+[84.936995] (-) TimerEvent: {}
+[85.038941] (-) TimerEvent: {}
+[85.142616] (-) TimerEvent: {}
+[85.247514] (-) TimerEvent: {}
+[85.348903] (-) TimerEvent: {}
+[85.451660] (-) TimerEvent: {}
+[85.558202] (-) TimerEvent: {}
+[85.663979] (-) TimerEvent: {}
+[85.767586] (-) TimerEvent: {}
+[85.872902] (-) TimerEvent: {}
+[85.978508] (-) TimerEvent: {}
+[86.080713] (-) TimerEvent: {}
+[86.187749] (-) TimerEvent: {}
+[86.289666] (-) TimerEvent: {}
+[86.396217] (-) TimerEvent: {}
+[86.498959] (-) TimerEvent: {}
+[86.603035] (-) TimerEvent: {}
+[86.705818] (-) TimerEvent: {}
+[86.808367] (-) TimerEvent: {}
+[86.824836] (use_custom_msg) StdoutLine: {'line': b'[ 50%] Built target custom_listner\n'}
+[86.910582] (-) TimerEvent: {}
+[86.929142] (use_custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_talker\x1b[0m\n'}
+[87.013187] (-) TimerEvent: {}
+[87.118098] (-) TimerEvent: {}
+[87.149672] (use_custom_msg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o\x1b[0m\n'}
+[87.219106] (-) TimerEvent: {}
+[87.321176] (-) TimerEvent: {}
+[87.427810] (-) TimerEvent: {}
+[87.530894] (-) TimerEvent: {}
+[87.634784] (-) TimerEvent: {}
+[87.738222] (-) TimerEvent: {}
+[87.848909] (-) TimerEvent: {}
+[87.952889] (-) TimerEvent: {}
+[88.056705] (-) TimerEvent: {}
+[88.158839] (-) TimerEvent: {}
+[88.264539] (-) TimerEvent: {}
+[88.366561] (-) TimerEvent: {}
+[88.471530] (-) TimerEvent: {}
+[88.573463] (-) TimerEvent: {}
+[88.679606] (-) TimerEvent: {}
+[88.782472] (-) TimerEvent: {}
+[88.884701] (-) TimerEvent: {}
+[88.988885] (-) TimerEvent: {}
+[89.090903] (-) TimerEvent: {}
+[89.198955] (-) TimerEvent: {}
+[89.302769] (-) TimerEvent: {}
+[89.405034] (-) TimerEvent: {}
+[89.510155] (-) TimerEvent: {}
+[89.611972] (-) TimerEvent: {}
+[89.715917] (-) TimerEvent: {}
+[89.817900] (-) TimerEvent: {}
+[89.920807] (-) TimerEvent: {}
+[90.023858] (-) TimerEvent: {}
+[90.126208] (-) TimerEvent: {}
+[90.231821] (-) TimerEvent: {}
+[90.335915] (-) TimerEvent: {}
+[90.439167] (-) TimerEvent: {}
+[90.542513] (-) TimerEvent: {}
+[90.645631] (-) TimerEvent: {}
+[90.746941] (-) TimerEvent: {}
+[90.848645] (-) TimerEvent: {}
+[90.950038] (-) TimerEvent: {}
+[91.052733] (-) TimerEvent: {}
+[91.155550] (-) TimerEvent: {}
+[91.258728] (-) TimerEvent: {}
+[91.360547] (-) TimerEvent: {}
+[91.462861] (-) TimerEvent: {}
+[91.563903] (-) TimerEvent: {}
+[91.665467] (-) TimerEvent: {}
+[91.770450] (-) TimerEvent: {}
+[91.871673] (-) TimerEvent: {}
+[91.973767] (-) TimerEvent: {}
+[92.076657] (-) TimerEvent: {}
+[92.179201] (-) TimerEvent: {}
+[92.283907] (-) TimerEvent: {}
+[92.386707] (-) TimerEvent: {}
+[92.488845] (-) TimerEvent: {}
+[92.591784] (-) TimerEvent: {}
+[92.694803] (-) TimerEvent: {}
+[92.796638] (-) TimerEvent: {}
+[92.900639] (-) TimerEvent: {}
+[93.005786] (-) TimerEvent: {}
+[93.108778] (-) TimerEvent: {}
+[93.211459] (-) TimerEvent: {}
+[93.314512] (-) TimerEvent: {}
+[93.417877] (-) TimerEvent: {}
+[93.520636] (-) TimerEvent: {}
+[93.623023] (-) TimerEvent: {}
+[93.726482] (-) TimerEvent: {}
+[93.827522] (-) TimerEvent: {}
+[93.933716] (-) TimerEvent: {}
+[94.035064] (-) TimerEvent: {}
+[94.137713] (-) TimerEvent: {}
+[94.242537] (-) TimerEvent: {}
+[94.343587] (-) TimerEvent: {}
+[94.446569] (-) TimerEvent: {}
+[94.547700] (-) TimerEvent: {}
+[94.648881] (-) TimerEvent: {}
+[94.750906] (-) TimerEvent: {}
+[94.853807] (-) TimerEvent: {}
+[94.956022] (-) TimerEvent: {}
+[95.058983] (-) TimerEvent: {}
+[95.161857] (-) TimerEvent: {}
+[95.265055] (-) TimerEvent: {}
+[95.369753] (-) TimerEvent: {}
+[95.471436] (-) TimerEvent: {}
+[95.578452] (-) TimerEvent: {}
+[95.679983] (-) TimerEvent: {}
+[95.781670] (-) TimerEvent: {}
+[95.883887] (-) TimerEvent: {}
+[95.988382] (-) TimerEvent: {}
+[96.089697] (-) TimerEvent: {}
+[96.191979] (-) TimerEvent: {}
+[96.293992] (-) TimerEvent: {}
+[96.397157] (-) TimerEvent: {}
+[96.499146] (-) TimerEvent: {}
+[96.601919] (-) TimerEvent: {}
+[96.703892] (-) TimerEvent: {}
+[96.805650] (-) TimerEvent: {}
+[96.907362] (-) TimerEvent: {}
+[97.008428] (-) TimerEvent: {}
+[97.111027] (-) TimerEvent: {}
+[97.212912] (-) TimerEvent: {}
+[97.314944] (-) TimerEvent: {}
+[97.416960] (-) TimerEvent: {}
+[97.518787] (-) TimerEvent: {}
+[97.582658] (use_custom_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[97.583588] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[97.588728] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[97.589394] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[97.589772] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[97.590175] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[97.590798] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[97.595534] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[97.597334] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[97.597580] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[97.597812] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[97.598092] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6\x1b[m\x1b[K:\n'}
+[97.598434] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[97.598681] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[97.598924] (use_custom_msg) StderrLine: {'line': b'   33 |  RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%f\', \'%f\',\'%f\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmessage.day\x1b[m\x1b[K, message.month, message.year);\n'}
+[97.599165] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[97.599467] (use_custom_msg) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[97.605121] (use_custom_msg) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[97.605545] (use_custom_msg) StderrLine: {'line': b'\n'}
+[97.605870] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[97.606194] (use_custom_msg) StderrLine: {'line': b'   33 | is->get_logger(), "Publishing: \'\x1b[01;36m\x1b[K%f\x1b[m\x1b[K\', \'%f\',\'%f\'", message.day, message.month, message.year);\n'}
+[97.606654] (use_custom_msg) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[97.606986] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[97.607453] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[97.607805] (use_custom_msg) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[97.608138] (use_custom_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[97.615066] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[97.615562] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[97.615926] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[97.616508] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[97.616855] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[97.617208] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[97.617832] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[97.620036] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[97.620601] (-) TimerEvent: {}
+[97.620991] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[97.621486] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[97.621827] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6\x1b[m\x1b[K:\n'}
+[97.622177] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[97.622703] (use_custom_msg) StderrLine: {'line': b'   33 |  RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%f\', \'%f\',\'%f\'"\x1b[m\x1b[K, message.day, \x1b[32m\x1b[Kmessage.month\x1b[m\x1b[K, message.year);\n'}
+[97.623079] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K               \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[97.623833] (use_custom_msg) StderrLine: {'line': b'      |                                                                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[97.624171] (use_custom_msg) StderrLine: {'line': b'      |                                                                                      \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[97.624580] (use_custom_msg) StderrLine: {'line': b'\n'}
+[97.624878] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[97.625205] (use_custom_msg) StderrLine: {'line': b'   33 | t_logger(), "Publishing: \'%f\', \'\x1b[01;36m\x1b[K%f\x1b[m\x1b[K\',\'%f\'", message.day, message.month, message.year);\n'}
+[97.625623] (use_custom_msg) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[97.625923] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[97.626217] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[97.626671] (use_custom_msg) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[97.626969] (use_custom_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[97.627420] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[97.627719] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[97.628001] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[97.628403] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[97.628701] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[97.628984] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[97.629414] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[97.629712] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[97.629997] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[97.630402] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[97.630698] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6\x1b[m\x1b[K:\n'}
+[97.630980] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[97.631405] (use_custom_msg) StderrLine: {'line': b'   33 |  RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%f\', \'%f\',\'%f\'"\x1b[m\x1b[K, message.day, message.month, \x1b[32m\x1b[Kmessage.year\x1b[m\x1b[K);\n'}
+[97.631717] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                              \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[97.632000] (use_custom_msg) StderrLine: {'line': b'      |                                                                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[97.632578] (use_custom_msg) StderrLine: {'line': b'      |                                                                                                     \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[97.633001] (use_custom_msg) StderrLine: {'line': b'\n'}
+[97.633613] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[97.633980] (use_custom_msg) StderrLine: {'line': b'   33 | ger(), "Publishing: \'%f\', \'%f\',\'\x1b[01;36m\x1b[K%f\x1b[m\x1b[K\'", message.day, message.month, message.year);\n'}
+[97.634423] (use_custom_msg) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[97.634728] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[97.635080] (use_custom_msg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[97.635519] (use_custom_msg) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[97.721088] (-) TimerEvent: {}
+[97.822596] (-) TimerEvent: {}
+[97.924338] (-) TimerEvent: {}
+[98.025560] (-) TimerEvent: {}
+[98.126970] (-) TimerEvent: {}
+[98.228904] (-) TimerEvent: {}
+[98.330464] (-) TimerEvent: {}
+[98.431966] (-) TimerEvent: {}
+[98.533406] (-) TimerEvent: {}
+[98.634857] (-) TimerEvent: {}
+[98.736687] (-) TimerEvent: {}
+[98.838439] (-) TimerEvent: {}
+[98.940893] (-) TimerEvent: {}
+[99.047597] (-) TimerEvent: {}
+[99.148547] (-) TimerEvent: {}
+[99.249558] (-) TimerEvent: {}
+[99.350523] (-) TimerEvent: {}
+[99.452020] (-) TimerEvent: {}
+[99.553170] (-) TimerEvent: {}
+[99.654518] (-) TimerEvent: {}
+[99.756092] (-) TimerEvent: {}
+[99.857660] (-) TimerEvent: {}
+[99.959456] (-) TimerEvent: {}
+[100.061475] (-) TimerEvent: {}
+[100.163947] (-) TimerEvent: {}
+[100.265668] (-) TimerEvent: {}
+[100.367764] (-) TimerEvent: {}
+[100.469818] (-) TimerEvent: {}
+[100.571059] (-) TimerEvent: {}
+[100.672374] (-) TimerEvent: {}
+[100.773499] (-) TimerEvent: {}
+[100.874466] (-) TimerEvent: {}
+[100.975401] (-) TimerEvent: {}
+[101.076431] (-) TimerEvent: {}
+[101.177584] (-) TimerEvent: {}
+[101.278631] (-) TimerEvent: {}
+[101.379511] (-) TimerEvent: {}
+[101.480458] (-) TimerEvent: {}
+[101.581802] (-) TimerEvent: {}
+[101.684086] (-) TimerEvent: {}
+[101.785832] (-) TimerEvent: {}
+[101.886742] (-) TimerEvent: {}
+[101.988947] (-) TimerEvent: {}
+[102.091436] (-) TimerEvent: {}
+[102.193547] (-) TimerEvent: {}
+[102.294576] (-) TimerEvent: {}
+[102.382468] (use_custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable custom_talker\x1b[0m\n'}
+[102.395129] (-) TimerEvent: {}
+[102.496509] (-) TimerEvent: {}
+[102.597747] (-) TimerEvent: {}
+[102.702475] (-) TimerEvent: {}
+[102.811670] (-) TimerEvent: {}
+[102.913192] (-) TimerEvent: {}
+[103.020094] (-) TimerEvent: {}
+[103.124591] (-) TimerEvent: {}
+[103.228853] (-) TimerEvent: {}
+[103.331695] (-) TimerEvent: {}
+[103.437717] (-) TimerEvent: {}
+[103.539738] (-) TimerEvent: {}
+[103.643708] (-) TimerEvent: {}
+[103.746727] (-) TimerEvent: {}
+[103.849910] (-) TimerEvent: {}
+[103.953932] (-) TimerEvent: {}
+[104.057642] (-) TimerEvent: {}
+[104.163680] (-) TimerEvent: {}
+[104.266635] (-) TimerEvent: {}
+[104.373047] (-) TimerEvent: {}
+[104.476202] (-) TimerEvent: {}
+[104.561744] (use_custom_msg) StdoutLine: {'line': b'[100%] Built target custom_talker\n'}
+[104.576858] (-) TimerEvent: {}
+[104.680634] (-) TimerEvent: {}
+[104.706090] (use_custom_msg) CommandEnded: {'returncode': 0}
+[104.722190] (use_custom_msg) JobProgress: {'identifier': 'use_custom_msg', 'progress': 'install'}
+[104.722721] (use_custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matrix/ros2_ws/build/use_custom_msg'], 'cwd': '/home/matrix/ros2_ws/build/use_custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matrix/ros2_ws/install/custom_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d79b94e-6514-4ce4-a769-a403232a64b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/use_custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble')]), 'shell': False}
+[104.783723] (-) TimerEvent: {}
+[104.832962] (use_custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[104.839997] (use_custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_listner\n'}
+[104.885663] (-) TimerEvent: {}
+[104.922049] (use_custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_listner" to ""\n'}
+[104.924669] (use_custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_talker\n'}
+[104.955170] (use_custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_talker" to ""\n'}
+[104.956192] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/package_run_dependencies/use_custom_msg\n'}
+[104.959573] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/parent_prefix_path/use_custom_msg\n'}
+[104.960455] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/ament_prefix_path.sh\n'}
+[104.961505] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/ament_prefix_path.dsv\n'}
+[104.961963] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/path.sh\n'}
+[104.963557] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/path.dsv\n'}
+[104.964553] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.bash\n'}
+[104.965496] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.sh\n'}
+[104.969521] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.zsh\n'}
+[104.971735] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.dsv\n'}
+[104.981040] (use_custom_msg) StdoutLine: {'line': b'-- Installing: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/package.dsv\n'}
+[104.982975] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/packages/use_custom_msg\n'}
+[104.999032] (-) TimerEvent: {}
+[105.003074] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/cmake/use_custom_msgConfig.cmake\n'}
+[105.003863] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/cmake/use_custom_msgConfig-version.cmake\n'}
+[105.004593] (use_custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/package.xml\n'}
+[105.014154] (use_custom_msg) CommandEnded: {'returncode': 0}
+[105.100622] (-) TimerEvent: {}
+[105.116106] (use_custom_msg) JobEnded: {'identifier': 'use_custom_msg', 'rc': 0}
+[105.128012] (-) EventReactorShutdown: {}

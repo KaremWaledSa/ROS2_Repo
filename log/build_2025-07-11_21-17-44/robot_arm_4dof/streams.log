@@ -1,0 +1,31 @@
+[0.060s] Invoking command in '/home/matrix/ros2_ws/build/robot_arm_4dof': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/robotArm_4DOF -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/robot_arm_4dof
+[0.112s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.328s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.466s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.467s] -- Added test 'lint_cmake' to check CMake code style
+[0.470s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.470s] -- Added test 'xmllint' to check XML markup files
+[0.475s] -- Configuring done
+[0.483s] -- Generating done
+[0.488s] -- Build files have been written to: /home/matrix/ros2_ws/build/robot_arm_4dof
+[0.490s] Invoked command in '/home/matrix/ros2_ws/build/robot_arm_4dof' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/robotArm_4DOF -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/robot_arm_4dof
+[0.495s] Invoking command in '/home/matrix/ros2_ws/build/robot_arm_4dof': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/robot_arm_4dof -- -j8 -l8
+[0.774s] Invoked command in '/home/matrix/ros2_ws/build/robot_arm_4dof' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/robot_arm_4dof -- -j8 -l8
+[0.820s] Invoking command in '/home/matrix/ros2_ws/build/robot_arm_4dof': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/robot_arm_4dof
+[0.851s] -- Install configuration: ""
+[0.851s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/ament_index/resource_index/package_run_dependencies/robot_arm_4dof
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/ament_index/resource_index/parent_prefix_path/robot_arm_4dof
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/environment/ament_prefix_path.sh
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/environment/ament_prefix_path.dsv
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/environment/path.sh
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/environment/path.dsv
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/local_setup.bash
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/local_setup.sh
+[0.853s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/local_setup.zsh
+[0.854s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/local_setup.dsv
+[0.854s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/package.dsv
+[0.854s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/ament_index/resource_index/packages/robot_arm_4dof
+[0.854s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/cmake/robot_arm_4dofConfig.cmake
+[0.854s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/cmake/robot_arm_4dofConfig-version.cmake
+[0.854s] -- Installing: /home/matrix/ros2_ws/install/robot_arm_4dof/share/robot_arm_4dof/package.xml
+[0.856s] Invoked command in '/home/matrix/ros2_ws/build/robot_arm_4dof' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/robot_arm_4dof

@@ -1,0 +1,4 @@
+[console_scripts]
+listener = py_node.sub:main
+talker = py_node.pub:main
+

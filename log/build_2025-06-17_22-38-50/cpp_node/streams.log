@@ -1,0 +1,24 @@
+[0.311s] Invoking command in '/home/matrix/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/cpp_node -- -j8 -l8
+[1.380s] [ 50%] Built target talker
+[1.893s] [100%] Built target listener
+[3.138s] Invoked command in '/home/matrix/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/cpp_node -- -j8 -l8
+[3.340s] Invoking command in '/home/matrix/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/cpp_node
+[3.495s] -- Install configuration: ""
+[3.513s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/lib/cpp_node/talker
+[3.534s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/lib/cpp_node/listener
+[3.555s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[3.556s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[3.559s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[3.560s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[3.564s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/path.sh
+[3.565s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+[3.565s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.bash
+[3.580s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.sh
+[3.585s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+[3.601s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+[3.602s] -- Installing: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/package.dsv
+[3.619s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[3.621s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[3.629s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[3.630s] -- Up-to-date: /home/matrix/ros2_ws/install/cpp_node/share/cpp_node/package.xml
+[3.635s] Invoked command in '/home/matrix/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/cpp_node

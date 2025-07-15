@@ -1,0 +1,2 @@
+Invoking command in '/home/matrix/ros2_ws/build/custom_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/custom_pkg -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/custom_pkg
+Invoked command in '/home/matrix/ros2_ws/build/custom_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/custom_pkg -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/custom_pkg

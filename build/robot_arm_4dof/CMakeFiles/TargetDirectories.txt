@@ -1,0 +1,9 @@
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/uninstall.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/robot_arm_4dof_uninstall.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/test.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/edit_cache.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/rebuild_cache.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/list_install_components.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/install.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/install/local.dir
+/home/matrix/ros2_ws/build/robot_arm_4dof/CMakeFiles/install/strip.dir

@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target custom_talker[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_listner[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o[0m
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyears[m[K’; did you mean ‘[01m[Kyear[m[K’?
+   29 |       message.[01;31m[Kyears[m[K = 1999;
+      |               [01;31m[K^~~~~[m[K
+      |               [32m[Kyear[m[K
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:30:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmonths[m[K’; did you mean ‘[01m[Kmonth[m[K’?
+   30 |       message.[01;31m[Kmonths[m[K = 8;
+      |               [01;31m[K^~~~~~[m[K
+      |               [32m[Kmonth[m[K
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:31:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_msg::msg::Age_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdays[m[K’; did you mean ‘[01m[Kday[m[K’?
+   31 |       message.[01;31m[Kdays[m[K = 25;
+      |               [01;31m[K^~~~[m[K
+      |               [32m[Kday[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:3[m[K:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Age&) const[m[K’:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:21:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   21 |       RCLCPP_INFO(this->get_logger(), "I heard: '%f', '%f','%f'", [01;31m[Kmessage[m[K.day, message.month, message.year);
+      |                                                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:19:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 |     void topic_callback([01;35m[Kconst custom_msg::msg::Age & msg[m[K) const
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/custom_talker.dir/build.make:76: CMakeFiles/custom_talker.dir/src/pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/custom_talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/custom_listner.dir/build.make:76: CMakeFiles/custom_listner.dir/src/sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/custom_listner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

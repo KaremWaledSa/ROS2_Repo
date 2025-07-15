@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<robot name="robotic_arm_4dof" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include material and macro definitions -->
+  <xacro:include filename="$(find robot_arm_4dof)/urdf/materials.xacro"/>
+  <xacro:include filename="$(find robot_arm_4dof)/urdf/macros.xacro"/>
+
+  <!-- Robot parameters -->
+  <xacro:property name="pi" value="3.14159"/>
+  
+  <!-- Link dimensions -->
+  <xacro:property name="base_radius" value="0.1"/>
+  <xacro:property name="base_length" value="0.05"/>
+  <xacro:property name="shoulder_radius" value="0.05"/>
+  <xacro:property name="shoulder_length" value="0.1"/>
+  <xacro:property name="upper_arm_length" value="0.3"/>
+  <xacro:property name="upper_arm_radius" value="0.03"/>
+  <xacro:property name="forearm_length" value="0.25"/>
+  <xacro:property name="forearm_radius" value="0.025"/>
+  <xacro:property name="wrist_radius" value="0.02"/>
+  <xacro:property name="wrist_length" value="0.08"/>
+
+  <!-- Link masses -->
+  <xacro:property name="base_mass" value="2.0"/>
+  <xacro:property name="shoulder_mass" value="1.0"/>
+  <xacro:property name="upper_arm_mass" value="1.5"/>
+  <xacro:property name="forearm_mass" value="1.0"/>
+  <xacro:property name="wrist_mass" value="0.5"/>
+
+  <!-- Joint limits (in radians) -->
+  <xacro:property name="base_joint_lower" value="${-pi}"/>
+  <xacro:property name="base_joint_upper" value="${pi}"/>
+  <xacro:property name="shoulder_joint_lower" value="${-pi/2}"/>
+  <xacro:property name="shoulder_joint_upper" value="${pi/2}"/>
+  <xacro:property name="elbow_joint_lower" value="${-pi}"/>
+  <xacro:property name="elbow_joint_upper" value="${pi}"/>
+  <xacro:property name="wrist_joint_lower" value="${-pi/2}"/>
+  <xacro:property name="wrist_joint_upper" value="${pi/2}"/>
+
+  <!-- World link (fixed reference frame) -->
+  <link name="world"/>
+
+  <!-- Base link -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 ${base_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${base_radius}" length="${base_length}"/>
+      </geometry>
+      <material name="base_material"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${base_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${base_radius}" length="${base_length}"/>
+      </geometry>
+    </collision>
+    <xacro:cylinder_inertial mass="${base_mass}" radius="${base_radius}" length="${base_length}"/>
+  </link>
+
+  <!-- Shoulder link -->
+  <link name="shoulder_link">
+    <visual>
+      <origin xyz="0 0 ${shoulder_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${shoulder_radius}" length="${shoulder_length}"/>
+      </geometry>
+      <material name="joint_material"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${shoulder_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${shoulder_radius}" length="${shoulder_length}"/>
+      </geometry>
+    </collision>
+    <xacro:cylinder_inertial mass="${shoulder_mass}" radius="${shoulder_radius}" length="${shoulder_length}"/>
+  </link>
+
+  <!-- Upper arm link -->
+  <link name="upper_arm_link">
+    <visual>
+      <origin xyz="0 0 ${upper_arm_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${upper_arm_radius}" length="${upper_arm_length}"/>
+      </geometry>
+      <material name="link_material"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${upper_arm_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${upper_arm_radius}" length="${upper_arm_length}"/>
+      </geometry>
+    </collision>
+    <xacro:cylinder_inertial mass="${upper_arm_mass}" radius="${upper_arm_radius}" length="${upper_arm_length}"/>
+  </link>
+
+  <!-- Forearm link -->
+  <link name="forearm_link">
+    <visual>
+      <origin xyz="0 0 ${forearm_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${forearm_radius}" length="${forearm_length}"/>
+      </geometry>
+      <material name="link_material"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${forearm_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${forearm_radius}" length="${forearm_length}"/>
+      </geometry>
+    </collision>
+    <xacro:cylinder_inertial mass="${forearm_mass}" radius="${forearm_radius}" length="${forearm_length}"/>
+  </link>
+
+  <!-- Wrist link -->
+  <link name="wrist_link">
+    <visual>
+      <origin xyz="0 0 ${wrist_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="${wrist_radius}"/>
+      </geometry>
+      <material name="end_effector_material"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${wrist_length/2}" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="${wrist_radius}"/>
+      </geometry>
+    </collision>
+    <xacro:sphere_inertial mass="${wrist_mass}" radius="${wrist_radius}"/>
+  </link>
+
+  <!-- Joints -->
+  
+  <!-- Fixed joint from world to base -->
+  <xacro:fixed_joint name="world_to_base" parent="world" child="base_link" xyz="0 0 0" rpy="0 0 0"/>
+
+  <!-- Base joint (revolute) -->
+  <xacro:revolute_joint name="base_joint" 
+                        parent="base_link" 
+                        child="shoulder_link" 
+                        xyz="0 0 ${base_length}" 
+                        rpy="0 0 0" 
+                        axis="0 0 1" 
+                        lower="${base_joint_lower}" 
+                        upper="${base_joint_upper}" 
+                        velocity="2.0" 
+                        effort="100.0"/>
+
+  <!-- Shoulder joint (revolute) -->
+  <xacro:revolute_joint name="shoulder_joint" 
+                        parent="shoulder_link" 
+                        child="upper_arm_link" 
+                        xyz="0 0 ${shoulder_length}" 
+                        rpy="0 0 0" 
+                        axis="0 1 0" 
+                        lower="${shoulder_joint_lower}" 
+                        upper="${shoulder_joint_upper}" 
+                        velocity="2.0" 
+                        effort="100.0"/>
+
+  <!-- Elbow joint (revolute) -->
+  <xacro:revolute_joint name="elbow_joint" 
+                        parent="upper_arm_link" 
+                        child="forearm_link" 
+                        xyz="0 0 ${upper_arm_length}" 
+                        rpy="0 0 0" 
+                        axis="0 1 0" 
+                        lower="${elbow_joint_lower}" 
+                        upper="${elbow_joint_upper}" 
+                        velocity="2.0" 
+                        effort="50.0"/>
+
+  <!-- Wrist joint (revolute) -->
+  <xacro:revolute_joint name="wrist_joint" 
+                        parent="forearm_link" 
+                        child="wrist_link" 
+                        xyz="0 0 ${forearm_length}" 
+                        rpy="0 0 0" 
+                        axis="0 1 0" 
+                        lower="${wrist_joint_lower}" 
+                        upper="${wrist_joint_upper}" 
+                        velocity="2.0" 
+                        effort="25.0"/>
+
+</robot>

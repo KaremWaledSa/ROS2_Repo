@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:13 (rosidl_generate_interffaces):
+  Unknown CMake command "rosidl_generate_interffaces".
+
+[0m

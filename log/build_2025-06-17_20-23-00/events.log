@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.001042] (-) JobUnselected: {'identifier': 'cpp_node'}
+[0.001183] (-) JobUnselected: {'identifier': 'custom_msg'}
+[0.001271] (-) JobUnselected: {'identifier': 'py_node'}
+[0.004358] (use_custom_msg) JobQueued: {'identifier': 'use_custom_msg', 'dependencies': OrderedDict([('custom_msg', '/home/matrix/ros2_ws/install/custom_msg')])}
+[0.004900] (use_custom_msg) JobStarted: {'identifier': 'use_custom_msg'}
+[0.078961] (use_custom_msg) JobProgress: {'identifier': 'use_custom_msg', 'progress': 'cmake'}
+[0.082477] (use_custom_msg) JobProgress: {'identifier': 'use_custom_msg', 'progress': 'build'}
+[0.082831] (use_custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matrix/ros2_ws/build/use_custom_msg', '--', '-j8', '-l8'], 'cwd': '/home/matrix/ros2_ws/build/use_custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'matrix'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matrix/ros2_ws/install/custom_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matrix'), ('OLDPWD', '/home/matrix'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1624'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5076'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'matrix'), ('JOURNAL_STREAM', '8:27097'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matrix'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/matrix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kubros2-virtual:@/tmp/.ICE-unix/1253,unix/kubros2-virtual:/tmp/.ICE-unix/1253'), ('INVOCATION_ID', '4755e79ec8344ae3ad840ef3580cd8d1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWD572'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d7ab1546-f328-43fd-ba22-1305d1e2f477'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matrix/ros2_ws/build/use_custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble')]), 'shell': False}
+[0.100392] (-) TimerEvent: {}
+[0.201450] (-) TimerEvent: {}
+[0.303014] (-) TimerEvent: {}
+[0.393796] (use_custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_listner\x1b[0m\n'}
+[0.403473] (-) TimerEvent: {}
+[0.411807] (use_custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_talker\x1b[0m\n'}
+[0.505780] (-) TimerEvent: {}
+[0.573954] (use_custom_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.590835] (use_custom_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.606269] (-) TimerEvent: {}
+[0.709857] (-) TimerEvent: {}
+[0.810883] (-) TimerEvent: {}
+[0.912335] (-) TimerEvent: {}
+[1.019791] (-) TimerEvent: {}
+[1.120705] (-) TimerEvent: {}
+[1.223725] (-) TimerEvent: {}
+[1.324869] (-) TimerEvent: {}
+[1.426924] (-) TimerEvent: {}
+[1.528115] (-) TimerEvent: {}
+[1.631966] (-) TimerEvent: {}
+[1.733326] (-) TimerEvent: {}
+[1.836348] (-) TimerEvent: {}
+[1.940836] (-) TimerEvent: {}
+[2.042021] (-) TimerEvent: {}
+[2.143247] (-) TimerEvent: {}
+[2.245847] (-) TimerEvent: {}
+[2.349658] (-) TimerEvent: {}
+[2.454335] (-) TimerEvent: {}
+[2.556058] (-) TimerEvent: {}
+[2.658150] (-) TimerEvent: {}
+[2.761645] (-) TimerEvent: {}
+[2.866959] (-) TimerEvent: {}
+[2.968365] (-) TimerEvent: {}
+[3.072665] (-) TimerEvent: {}
+[3.175285] (-) TimerEvent: {}
+[3.276832] (-) TimerEvent: {}
+[3.378498] (-) TimerEvent: {}
+[3.481097] (-) TimerEvent: {}
+[3.582699] (-) TimerEvent: {}
+[3.684296] (-) TimerEvent: {}
+[3.785374] (-) TimerEvent: {}
+[3.886914] (-) TimerEvent: {}
+[3.987720] (-) TimerEvent: {}
+[4.088480] (-) TimerEvent: {}
+[4.189338] (-) TimerEvent: {}
+[4.290208] (-) TimerEvent: {}
+[4.391168] (-) TimerEvent: {}
+[4.491920] (-) TimerEvent: {}
+[4.592716] (-) TimerEvent: {}
+[4.693495] (-) TimerEvent: {}
+[4.794309] (-) TimerEvent: {}
+[4.895153] (-) TimerEvent: {}
+[4.996006] (-) TimerEvent: {}
+[5.096786] (-) TimerEvent: {}
+[5.197700] (-) TimerEvent: {}
+[5.299235] (-) TimerEvent: {}
+[5.400143] (-) TimerEvent: {}
+[5.500953] (-) TimerEvent: {}
+[5.603080] (-) TimerEvent: {}
+[5.705726] (-) TimerEvent: {}
+[5.806704] (-) TimerEvent: {}
+[5.908818] (-) TimerEvent: {}
+[6.009769] (-) TimerEvent: {}
+[6.110491] (-) TimerEvent: {}
+[6.211758] (-) TimerEvent: {}
+[6.314378] (-) TimerEvent: {}
+[6.418283] (-) TimerEvent: {}
+[6.520400] (-) TimerEvent: {}
+[6.621948] (-) TimerEvent: {}
+[6.722734] (-) TimerEvent: {}
+[6.823677] (-) TimerEvent: {}
+[6.925719] (-) TimerEvent: {}
+[7.027753] (-) TimerEvent: {}
+[7.129837] (-) TimerEvent: {}
+[7.232301] (-) TimerEvent: {}
+[7.333197] (-) TimerEvent: {}
+[7.436281] (-) TimerEvent: {}
+[7.537870] (-) TimerEvent: {}
+[7.640302] (-) TimerEvent: {}
+[7.657489] (use_custom_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.657994] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.659649] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.660281] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.660477] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.660758] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.660947] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.661155] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.661341] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.661948] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.662178] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.662468] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:3\x1b[m\x1b[K:\n'}
+[7.662787] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const Age&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.662978] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:21:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.663188] (use_custom_msg) StderrLine: {'line': b'   21 |       RCLCPP_INFO(this->get_logger(), "I heard: \'%f\', \'%f\',\'%f\'", \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.days, message.months, message.years);\n'}
+[7.665781] (use_custom_msg) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.666021] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/sub.cpp:19:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.666224] (use_custom_msg) StderrLine: {'line': b'   19 |     void topic_callback(\x1b[01;35m\x1b[Kconst custom_msg::msg::Age & msg\x1b[m\x1b[K) const\n'}
+[7.666413] (use_custom_msg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.669390] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.669811] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:29:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kyears\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyear\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.670031] (use_custom_msg) StderrLine: {'line': b'   29 |       message.\x1b[01;31m\x1b[Kyears\x1b[m\x1b[K = 1999;\n'}
+[7.670221] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.671148] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kyear\x1b[m\x1b[K\n'}
+[7.672278] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:30:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmonths\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmonth\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.672693] (use_custom_msg) StderrLine: {'line': b'   30 |       message.\x1b[01;31m\x1b[Kmonths\x1b[m\x1b[K = 8;\n'}
+[7.673003] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.673209] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kmonth\x1b[m\x1b[K\n'}
+[7.673395] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:31:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdays\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kday\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.673698] (use_custom_msg) StderrLine: {'line': b'   31 |       message.\x1b[01;31m\x1b[Kdays\x1b[m\x1b[K = 25;\n'}
+[7.673948] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.674276] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kday\x1b[m\x1b[K\n'}
+[7.674660] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.674907] (use_custom_msg) StderrLine: {'line': b'   33 |       message.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K = "Hello, Mr-Matrix! " + std::to_string(count_++);\n'}
+[7.675105] (use_custom_msg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.682756] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.683325] (use_custom_msg) StderrLine: {'line': b'   33 |       message.data = "Hello, Mr-Matrix! " + std::to_string(\x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K++);\n'}
+[7.683807] (use_custom_msg) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.684175] (use_custom_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.684488] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.684792] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.684988] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.685238] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.685980] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.686245] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.686679] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.686928] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.687128] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.687432] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.687862] (use_custom_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6\x1b[m\x1b[K:\n'}
+[7.688080] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:34:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdays\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kday\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.688311] (use_custom_msg) StderrLine: {'line': b'   34 |       RCLCPP_INFO(this->get_logger(), "Publishing: \'%f\', \'%f\',\'%f\'", message.\x1b[01;31m\x1b[Kdays\x1b[m\x1b[K, message.months, message.years);\n'}
+[7.688513] (use_custom_msg) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.688946] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:34:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmonths\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmonth\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.689155] (use_custom_msg) StderrLine: {'line': b'   34 |       RCLCPP_INFO(this->get_logger(), "Publishing: \'%f\', \'%f\',\'%f\'", message.days, message.\x1b[01;31m\x1b[Kmonths\x1b[m\x1b[K, message.years);\n'}
+[7.689356] (use_custom_msg) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.690050] (use_custom_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:34:108:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_msg::msg::Age_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kyears\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyear\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.690420] (use_custom_msg) StderrLine: {'line': b'   34 |       RCLCPP_INFO(this->get_logger(), "Publishing: \'%f\', \'%f\',\'%f\'", message.days, message.months, message.\x1b[01;31m\x1b[Kyears\x1b[m\x1b[K);\n'}
+[7.690841] (use_custom_msg) StderrLine: {'line': b'      |                                                                                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.740724] (-) TimerEvent: {}
+[7.842640] (-) TimerEvent: {}
+[7.944070] (-) TimerEvent: {}
+[8.044778] (-) TimerEvent: {}
+[8.145407] (-) TimerEvent: {}
+[8.246312] (-) TimerEvent: {}
+[8.347323] (-) TimerEvent: {}
+[8.448173] (-) TimerEvent: {}
+[8.549113] (-) TimerEvent: {}
+[8.649911] (-) TimerEvent: {}
+[8.750888] (-) TimerEvent: {}
+[8.852805] (-) TimerEvent: {}
+[8.954749] (-) TimerEvent: {}
+[9.056697] (-) TimerEvent: {}
+[9.073303] (use_custom_msg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custom_talker.dir/build.make:76: CMakeFiles/custom_talker.dir/src/pub.cpp.o] Error 1\n'}
+[9.074658] (use_custom_msg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/custom_talker.dir/all] Error 2\n'}
+[9.074904] (use_custom_msg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.157168] (-) TimerEvent: {}
+[9.257924] (-) TimerEvent: {}
+[9.358724] (-) TimerEvent: {}
+[9.459482] (-) TimerEvent: {}
+[9.560321] (-) TimerEvent: {}
+[9.661235] (-) TimerEvent: {}
+[9.762122] (-) TimerEvent: {}
+[9.862880] (-) TimerEvent: {}
+[9.963792] (-) TimerEvent: {}
+[10.064703] (-) TimerEvent: {}
+[10.165704] (-) TimerEvent: {}
+[10.266508] (-) TimerEvent: {}
+[10.367654] (-) TimerEvent: {}
+[10.468426] (-) TimerEvent: {}
+[10.569397] (-) TimerEvent: {}
+[10.670314] (-) TimerEvent: {}
+[10.771463] (-) TimerEvent: {}
+[10.872733] (-) TimerEvent: {}
+[10.973716] (-) TimerEvent: {}
+[11.074671] (-) TimerEvent: {}
+[11.175476] (-) TimerEvent: {}
+[11.276385] (-) TimerEvent: {}
+[11.377241] (-) TimerEvent: {}
+[11.478111] (-) TimerEvent: {}
+[11.572919] (use_custom_msg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custom_listner.dir/build.make:76: CMakeFiles/custom_listner.dir/src/sub.cpp.o] Error 1\n'}
+[11.573934] (use_custom_msg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/custom_listner.dir/all] Error 2\n'}
+[11.574133] (use_custom_msg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.578701] (-) TimerEvent: {}
+[11.582191] (use_custom_msg) CommandEnded: {'returncode': 2}
+[11.601982] (use_custom_msg) JobEnded: {'identifier': 'use_custom_msg', 'rc': 2}
+[11.613280] (-) EventReactorShutdown: {}

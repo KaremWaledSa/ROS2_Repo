@@ -1,0 +1,105 @@
+[0.152s] Invoking command in '/home/matrix/ros2_ws/build/use_custom_msg': AMENT_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/matrix/ros2_ws/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matrix/ros2_ws/build/use_custom_msg -- -j8 -l8
+[0.813s] [35m[1mConsolidate compiler generated dependencies of target custom_listner[0m
+[1.158s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o[0m
+[25.251s] [ 50%] [32m[1mLinking CXX executable custom_listner[0m
+[28.839s] [ 50%] Built target custom_listner
+[28.944s] [35m[1mConsolidate compiler generated dependencies of target custom_talker[0m
+[29.164s] [ 75%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o[0m
+[39.597s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[39.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[39.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[39.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[39.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[39.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[39.605s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[39.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[39.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[39.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[39.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[39.612s]                  from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[39.612s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[39.613s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[39.613s]    33 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f', '%f','%f'"[m[K, [32m[Kmessage.day[m[K, message.month, message.year);
+[39.613s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[39.619s]       |                                                                         [32m[K|[m[K
+[39.619s]       |                                                                         [32m[Kint[m[K
+[39.620s] 
+[39.620s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[39.620s]    33 | is->get_logger(), "Publishing: '[01;36m[K%f[m[K', '%f','%f'", message.day, message.month, message.year);
+[39.621s]       |                                 [01;36m[K~^[m[K
+[39.621s]       |                                  [01;36m[K|[m[K
+[39.622s]       |                                  [01;36m[Kdouble[m[K
+[39.622s]       |                                 [32m[K%d[m[K
+[39.629s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[39.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[39.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[39.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[39.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[39.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[39.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[39.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[39.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[39.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[39.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[39.636s]                  from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[39.636s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[39.637s]    33 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f', '%f','%f'"[m[K, message.day, [32m[Kmessage.month[m[K, message.year);
+[39.638s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               [32m[K~~~~~~~~~~~~~[m[K
+[39.638s]       |                                                                                      [32m[K|[m[K
+[39.638s]       |                                                                                      [32m[Kint[m[K
+[39.639s] 
+[39.639s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[39.639s]    33 | t_logger(), "Publishing: '%f', '[01;36m[K%f[m[K','%f'", message.day, message.month, message.year);
+[39.640s]       |                                 [01;36m[K~^[m[K
+[39.640s]       |                                  [01;36m[K|[m[K
+[39.640s]       |                                  [01;36m[Kdouble[m[K
+[39.641s]       |                                 [32m[K%d[m[K
+[39.641s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[39.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[39.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[39.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[39.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[39.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[39.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[39.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[39.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[39.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[39.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[39.645s]                  from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[39.645s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 7 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[39.645s]    33 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f', '%f','%f'"[m[K, message.day, message.month, [32m[Kmessage.year[m[K);
+[39.646s]       |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              [32m[K~~~~~~~~~~~~[m[K
+[39.646s]       |                                                                                                     [32m[K|[m[K
+[39.647s]       |                                                                                                     [32m[Kint[m[K
+[39.647s] 
+[39.648s] [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[39.648s]    33 | ger(), "Publishing: '%f', '%f','[01;36m[K%f[m[K'", message.day, message.month, message.year);
+[39.648s]       |                                 [01;36m[K~^[m[K
+[39.649s]       |                                  [01;36m[K|[m[K
+[39.649s]       |                                  [01;36m[Kdouble[m[K
+[39.650s]       |                                 [32m[K%d[m[K
+[44.397s] [100%] [32m[1mLinking CXX executable custom_talker[0m
+[46.577s] [100%] Built target custom_talker
+[46.721s] Invoked command in '/home/matrix/ros2_ws/build/use_custom_msg' returned '0': AMENT_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/matrix/ros2_ws/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/matrix/ros2_ws/build/use_custom_msg -- -j8 -l8
+[46.738s] Invoking command in '/home/matrix/ros2_ws/build/use_custom_msg': AMENT_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/matrix/ros2_ws/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matrix/ros2_ws/build/use_custom_msg
+[46.852s] -- Install configuration: ""
+[46.855s] -- Installing: /home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_listner
+[46.937s] -- Set runtime path of "/home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_listner" to ""
+[46.939s] -- Installing: /home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_talker
+[46.970s] -- Set runtime path of "/home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_talker" to ""
+[46.971s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/package_run_dependencies/use_custom_msg
+[46.974s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/parent_prefix_path/use_custom_msg
+[46.975s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/ament_prefix_path.sh
+[46.976s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/ament_prefix_path.dsv
+[46.977s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/path.sh
+[46.978s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/path.dsv
+[46.979s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.bash
+[46.982s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.sh
+[46.984s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.zsh
+[46.994s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.dsv
+[46.997s] -- Installing: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/package.dsv
+[47.011s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/packages/use_custom_msg
+[47.017s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/cmake/use_custom_msgConfig.cmake
+[47.018s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/cmake/use_custom_msgConfig-version.cmake
+[47.028s] -- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/package.xml
+[47.029s] Invoked command in '/home/matrix/ros2_ws/build/use_custom_msg' returned '0': AMENT_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/matrix/ros2_ws/install/custom_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/matrix/ros2_ws/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/matrix/ros2_ws/install/custom_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/matrix/ros2_ws/build/use_custom_msg

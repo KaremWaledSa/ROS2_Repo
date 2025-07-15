@@ -1,0 +1,101 @@
+[35m[1mConsolidate compiler generated dependencies of target custom_listner[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable custom_listner[0m
+[ 50%] Built target custom_listner
+[35m[1mConsolidate compiler generated dependencies of target custom_talker[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   33 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f', '%f','%f'"[m[K, [32m[Kmessage.day[m[K, message.month, message.year);
+      |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Kint[m[K
+
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   33 | is->get_logger(), "Publishing: '[01;36m[K%f[m[K', '%f','%f'", message.day, message.month, message.year);
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kdouble[m[K
+      |                                 [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   33 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f', '%f','%f'"[m[K, message.day, [32m[Kmessage.month[m[K, message.year);
+      |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                                      [32m[K|[m[K
+      |                                                                                      [32m[Kint[m[K
+
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   33 | t_logger(), "Publishing: '%f', '[01;36m[K%f[m[K','%f'", message.day, message.month, message.year);
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kdouble[m[K
+      |                                 [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:6[m[K:
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 7 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   33 |  RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f', '%f','%f'"[m[K, message.day, message.month, [32m[Kmessage.year[m[K);
+      |                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              [32m[K~~~~~~~~~~~~[m[K
+      |                                                                                                     [32m[K|[m[K
+      |                                                                                                     [32m[Kint[m[K
+
+[01m[K/home/matrix/ros2_ws/src/use_custom_msg/src/pub.cpp:33:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   33 | ger(), "Publishing: '%f', '%f','[01;36m[K%f[m[K'", message.day, message.month, message.year);
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kdouble[m[K
+      |                                 [32m[K%d[m[K
+[100%] [32m[1mLinking CXX executable custom_talker[0m
+[100%] Built target custom_talker
+-- Install configuration: ""
+-- Installing: /home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_listner
+-- Set runtime path of "/home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_listner" to ""
+-- Installing: /home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_talker
+-- Set runtime path of "/home/matrix/ros2_ws/install/use_custom_msg/lib/use_custom_msg/custom_talker" to ""
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/package_run_dependencies/use_custom_msg
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/parent_prefix_path/use_custom_msg
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/path.sh
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/environment/path.dsv
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.bash
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.sh
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.zsh
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/local_setup.dsv
+-- Installing: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/package.dsv
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/ament_index/resource_index/packages/use_custom_msg
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/cmake/use_custom_msgConfig.cmake
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/cmake/use_custom_msgConfig-version.cmake
+-- Up-to-date: /home/matrix/ros2_ws/install/use_custom_msg/share/use_custom_msg/package.xml

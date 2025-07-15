@@ -1,0 +1,40 @@
+[0.090s] Invoking command in '/home/matrix/ros2_ws/build/custom_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matrix/ros2_ws/install/py_node:/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/custom_pkg -- -j8 -l8
+[0.767s] [  8%] Built target custom_pkg__rosidl_generator_c
+[0.779s] [ 11%] [32mBuilding CXX object CMakeFiles/msg_pub.dir/src/pub.cpp.o[0m
+[0.799s] [ 14%] [32mBuilding CXX object CMakeFiles/msg_sub.dir/src/sub.cpp.o[0m
+[0.907s] [ 17%] Built target custom_pkg__cpp
+[0.907s] [ 17%] Built target ament_cmake_python_copy_custom_pkg
+[1.091s] [ 25%] Built target custom_pkg__rosidl_typesupport_fastrtps_c
+[1.096s] [ 34%] Built target custom_pkg__rosidl_typesupport_c
+[1.198s] [ 42%] Built target custom_pkg__rosidl_typesupport_introspection_c
+[1.248s] [ 51%] Built target custom_pkg__rosidl_typesupport_fastrtps_cpp
+[1.314s] [ 60%] Built target custom_pkg__rosidl_typesupport_cpp
+[1.332s] [ 68%] Built target custom_pkg__rosidl_typesupport_introspection_cpp
+[1.611s] [ 68%] Built target custom_pkg
+[1.952s] [ 71%] Built target custom_pkg__py
+[2.262s] [ 77%] Built target custom_pkg__rosidl_generator_py
+[2.684s] [ 82%] Built target custom_pkg__rosidl_typesupport_fastrtps_c__pyext
+[2.698s] [ 88%] Built target custom_pkg__rosidl_typesupport_introspection_c__pyext
+[2.733s] [ 94%] Built target custom_pkg__rosidl_typesupport_c__pyext
+[3.148s] running egg_info
+[3.150s] writing custom_pkg.egg-info/PKG-INFO
+[3.152s] writing dependency_links to custom_pkg.egg-info/dependency_links.txt
+[3.155s] writing top-level names to custom_pkg.egg-info/top_level.txt
+[3.166s] reading manifest file 'custom_pkg.egg-info/SOURCES.txt'
+[3.166s] writing manifest file 'custom_pkg.egg-info/SOURCES.txt'
+[3.331s] [ 94%] Built target ament_cmake_python_build_custom_pkg_egg
+[4.236s] [01m[K/home/matrix/ros2_ws/src/custom_pkg/src/sub.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcustom_pkg/msg/Age.hpp: No such file or directory
+[4.237s]     4 | #include [01;31m[K"custom_pkg/msg/Age.hpp"[m[K
+[4.237s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.237s] compilation terminated.
+[4.242s] gmake[2]: *** [CMakeFiles/msg_sub.dir/build.make:76: CMakeFiles/msg_sub.dir/src/sub.cpp.o] Error 1
+[4.242s] gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/msg_sub.dir/all] Error 2
+[4.242s] gmake[1]: *** Waiting for unfinished jobs....
+[4.287s] [01m[K/home/matrix/ros2_ws/src/custom_pkg/src/pub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kcustom_pkg/msg/Age.h: No such file or directory
+[4.290s]     7 | #include [01;31m[K"custom_pkg/msg/Age.h"[m[K
+[4.291s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.298s] compilation terminated.
+[4.301s] gmake[2]: *** [CMakeFiles/msg_pub.dir/build.make:76: CMakeFiles/msg_pub.dir/src/pub.cpp.o] Error 1
+[4.302s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/msg_pub.dir/all] Error 2
+[4.304s] gmake: *** [Makefile:146: all] Error 2
+[4.321s] Invoked command in '/home/matrix/ros2_ws/build/custom_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matrix/ros2_ws/install/py_node:/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/custom_pkg -- -j8 -l8
