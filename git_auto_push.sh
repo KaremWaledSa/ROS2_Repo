@@ -1,7 +1,9 @@
 #!/bin/bash
+
+# Ask for your commit message
+read -p "Enter your commit message: " msg
+
 git add .
-git commit -m "update"
-git push
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
+git commit -m "$msg"
+git push origin main
 
