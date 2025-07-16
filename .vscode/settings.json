@@ -1,0 +1,10 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/matrix/ROS2_Matrix/install/py_node/lib/python3.10/site-packages",
+        "/home/matrix/ROS2_Matrix/install/custom_pkg/local/lib/python3.10/dist-packages",
+        "/home/matrix/ROS2_Matrix/install/custom_msg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
