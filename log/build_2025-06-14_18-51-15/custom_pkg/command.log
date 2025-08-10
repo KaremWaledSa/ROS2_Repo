@@ -1,6 +1,0 @@
-Invoking command in '/home/matrix/ros2_ws/build/custom_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/custom_pkg -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/custom_pkg
-Invoked command in '/home/matrix/ros2_ws/build/custom_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/custom_pkg -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/custom_pkg
-Invoking command in '/home/matrix/ros2_ws/build/custom_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/custom_pkg -- -j8 -l8
-Invoked command in '/home/matrix/ros2_ws/build/custom_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/custom_pkg -- -j8 -l8
-Invoking command in '/home/matrix/ros2_ws/build/custom_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/custom_pkg
-Invoked command in '/home/matrix/ros2_ws/build/custom_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/custom_pkg

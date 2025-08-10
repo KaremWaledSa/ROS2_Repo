@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target custom_listner[0m
-[35m[1mConsolidate compiler generated dependencies of target custom_talker[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/custom_listner.dir/src/sub.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/pub.cpp.o[0m

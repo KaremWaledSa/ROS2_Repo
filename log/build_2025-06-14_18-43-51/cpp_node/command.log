@@ -1,1 +1,0 @@
-Invoking command in '/home/matrix/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/cpp_node

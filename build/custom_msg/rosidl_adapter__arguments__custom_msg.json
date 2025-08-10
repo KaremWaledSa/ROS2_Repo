@@ -1,6 +1,0 @@
-{
-  "package_name": "custom_msg",
-  "non_idl_tuples": [
-    "/home/matrix/ros2_ws/src/custom_msg:msg/Age.msg"
-  ]
-}

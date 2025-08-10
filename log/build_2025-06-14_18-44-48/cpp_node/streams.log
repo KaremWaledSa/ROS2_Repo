@@ -1,8 +1,0 @@
-[0.080s] Invoking command in '/home/matrix/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/cpp_node -- -j8 -l8
-[0.357s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
-[0.360s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
-[9.502s] [ 75%] [32m[1mLinking CXX executable talker[0m
-[10.309s] [ 75%] Built target talker
-[10.736s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sub.cpp.o] Interrupt
-[10.739s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Interrupt
-[10.740s] gmake: *** [Makefile:146: all] Interrupt

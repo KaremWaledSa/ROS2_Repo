@@ -1,4 +1,0 @@
-Invoking command in '/home/matrix/ros2_ws/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/custom_msg -- -j8 -l8
-Invoked command in '/home/matrix/ros2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/matrix/ros2_ws/build/custom_msg -- -j8 -l8
-Invoking command in '/home/matrix/ros2_ws/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/custom_msg
-Invoked command in '/home/matrix/ros2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/matrix/ros2_ws/build/custom_msg

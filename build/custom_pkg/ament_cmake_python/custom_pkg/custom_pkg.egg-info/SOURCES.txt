@@ -1,8 +1,0 @@
-setup.py
-custom_pkg/__init__.py
-custom_pkg.egg-info/PKG-INFO
-custom_pkg.egg-info/SOURCES.txt
-custom_pkg.egg-info/dependency_links.txt
-custom_pkg.egg-info/top_level.txt
-custom_pkg/msg/__init__.py
-custom_pkg/msg/_age.py

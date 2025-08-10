@@ -1,2 +1,0 @@
-Invoking command in '/home/matrix/ros2_ws/build/robot_arm_4dof': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/robotArm_4DOF -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/robot_arm_4dof
-Invoked command in '/home/matrix/ros2_ws/build/robot_arm_4dof' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/matrix/ros2_ws/src/robotArm_4DOF -DCMAKE_INSTALL_PREFIX=/home/matrix/ros2_ws/install/robot_arm_4dof
